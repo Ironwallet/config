@@ -1,0 +1,239 @@
+{
+  "currencies": [
+    {
+      "name": "Dollar USA",
+      "shortName": "usd",
+      "symbol": "$"
+    },
+    {
+      "name": "Euro",
+      "shortName": "eur",
+      "symbol": "€"
+    },
+    {
+      "name": "British pound sterling",
+      "shortName": "gbp",
+      "symbol": "£"
+    },
+    {
+      "name": "The Polish Zloty",
+      "shortName": "pln",
+      "symbol": "zł"
+    },
+    {
+      "name": "Russian ruble",
+      "shortName": "rub",
+      "symbol": "₽"
+    },
+    {
+      "name": "United Arab Emirates dirham",
+      "shortName": "aed",
+      "symbol": "DH"
+    },
+    {
+      "name": "Argentine peso",
+      "shortName": "ars",
+      "symbol": "Arg$"
+    },
+    {
+      "name": "Australian dollar",
+      "shortName": "aud",
+      "symbol": "$"
+    },
+    {
+      "name": "Bangladeshi taka",
+      "shortName": "bdt",
+      "symbol": "৳"
+    },
+    {
+      "name": "Bahraini dinar",
+      "shortName": "bhd",
+      "symbol": "BD"
+    },
+    {
+      "name": "Bermudian dollar",
+      "shortName": "bmd",
+      "symbol": "$"
+    },
+    {
+      "name": "Brazilian real",
+      "shortName": "brl",
+      "symbol": "R$"
+    },
+    {
+      "name": "Canadian dollar",
+      "shortName": "cad",
+      "symbol": "$"
+    },
+    {
+      "name": "Swiss franc",
+      "shortName": "chf",
+      "symbol": "CHF"
+    },
+    {
+      "name": "Chilean peso",
+      "shortName": "clp",
+      "symbol": "$"
+    },
+    {
+      "name": "Renminbi",
+      "shortName": "cny",
+      "symbol": "¥"
+    },
+    {
+      "name": "Czech koruna",
+      "shortName": "czk",
+      "symbol": "Kč"
+    },
+    {
+      "name": "Danish krone",
+      "shortName": "dkk",
+      "symbol": "kr."
+    },
+    {
+      "name": "Hong Kong dollar",
+      "shortName": "hkd",
+      "symbol": "HK$"
+    },
+    {
+      "name": "Hungarian forint",
+      "shortName": "huf",
+      "symbol": "Ft"
+    },
+    {
+      "name": "Indonesian rupiah",
+      "shortName": "idr",
+      "symbol": "Rp"
+    },
+    {
+      "name": "Shekel sign",
+      "shortName": "ils",
+      "symbol": "₪"
+    },
+    {
+      "name": "Indian rupee",
+      "shortName": "inr",
+      "symbol": "₹"
+    },
+    {
+      "name": "Japanese yen",
+      "shortName": "jpy",
+      "symbol": "¥"
+    },
+    {
+      "name": "South Korean won",
+      "shortName": "krw",
+      "symbol": "₩"
+    },
+    {
+      "name": "Kuwaiti dinar",
+      "shortName": "kwd",
+      "symbol": "د.ك"
+    },
+    {
+      "name": "Sri Lankan rupee",
+      "shortName": "lkr",
+      "symbol": "Re"
+    },
+    {
+      "name": "Myanmar kyat",
+      "shortName": "mmk",
+      "symbol": "K"
+    },
+    {
+      "name": "Mexican peso",
+      "shortName": "mxn",
+      "symbol": "Mex$"
+    },
+    {
+      "name": "Malaysian ringgit",
+      "shortName": "myr",
+      "symbol": "RM"
+    },
+    {
+      "name": "Nigerian naira",
+      "shortName": "ngn",
+      "symbol": "₦"
+    },
+    {
+      "name": "Norwegian krone",
+      "shortName": "nok",
+      "symbol": "kr"
+    },
+    {
+      "name": "New Zealand dollar",
+      "shortName": "nzd",
+      "symbol": "$"
+    },
+    {
+      "name": "Philippine peso",
+      "shortName": "php",
+      "symbol": "₱"
+    },
+    {
+      "name": "Pakistani rupee",
+      "shortName": "pkr",
+      "symbol": "Re"
+    },
+    {
+      "name": "Saudi riyal",
+      "shortName": "sar",
+      "symbol": "ر.س"
+    },
+    {
+      "name": "Swedish krona",
+      "shortName": "sek",
+      "symbol": "kr"
+    },
+    {
+      "name": "Singapore dollar",
+      "shortName": "sgd",
+      "symbol": "S$"
+    },
+    {
+      "name": "Thai baht",
+      "shortName": "thb",
+      "symbol": "฿"
+    },
+    {
+      "name": "Turkish lira",
+      "shortName": "try",
+      "symbol": "₺"
+    },
+    {
+      "name": "New Taiwan dollar",
+      "shortName": "twd",
+      "symbol": "NT$"
+    },
+    {
+      "name": "Ukrainian hryvnia",
+      "shortName": "uah",
+      "symbol": "₴"
+    },
+    {
+      "name": "Venezuelan bolívar",
+      "shortName": "vef",
+      "symbol": "Bs."
+    },
+    {
+      "name": "Vietnamese đồng",
+      "shortName": "vnd",
+      "symbol": "₫"
+    },
+    {
+      "name": "South African rand",
+      "shortName": "zar",
+      "symbol": "R"
+    },
+    {
+      "name": "Special drawing rights",
+      "shortName": "xdr",
+      "symbol": "SDR"
+    },
+    {
+      "name": "Silver Ounce",
+      "shortName": "xag",
+      "symbol": "Oz"
+    }
+  ]
+}
