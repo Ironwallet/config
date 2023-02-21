@@ -1,238 +1,238 @@
 {
   "currencies": [
     {
-      "name": "Dollar USA",
-      "shortName": "usd",
+      "title": "Dollar USA",
+      "iso4217Code": "usd",
       "symbol": "$"
     },
     {
-      "name": "Euro",
-      "shortName": "eur",
+      "title": "Euro",
+      "iso4217Code": "eur",
       "symbol": "€"
     },
     {
-      "name": "British pound sterling",
-      "shortName": "gbp",
+      "title": "British pound sterling",
+      "iso4217Code": "gbp",
       "symbol": "£"
     },
     {
-      "name": "The Polish Zloty",
-      "shortName": "pln",
+      "title": "The Polish Zloty",
+      "iso4217Code": "pln",
       "symbol": "zł"
     },
     {
-      "name": "Russian ruble",
-      "shortName": "rub",
+      "title": "Russian ruble",
+      "iso4217Code": "rub",
       "symbol": "₽"
     },
     {
-      "name": "United Arab Emirates dirham",
-      "shortName": "aed",
+      "title": "United Arab Emirates dirham",
+      "iso4217Code": "aed",
       "symbol": "DH"
     },
     {
-      "name": "Argentine peso",
-      "shortName": "ars",
+      "title": "Argentine peso",
+      "iso4217Code": "ars",
       "symbol": "Arg$"
     },
     {
-      "name": "Australian dollar",
-      "shortName": "aud",
+      "title": "Australian dollar",
+      "iso4217Code": "aud",
       "symbol": "$"
     },
     {
-      "name": "Bangladeshi taka",
-      "shortName": "bdt",
+      "title": "Bangladeshi taka",
+      "iso4217Code": "bdt",
       "symbol": "৳"
     },
     {
-      "name": "Bahraini dinar",
-      "shortName": "bhd",
+      "title": "Bahraini dinar",
+      "iso4217Code": "bhd",
       "symbol": "BD"
     },
     {
-      "name": "Bermudian dollar",
-      "shortName": "bmd",
+      "title": "Bermudian dollar",
+      "iso4217Code": "bmd",
       "symbol": "$"
     },
     {
-      "name": "Brazilian real",
-      "shortName": "brl",
+      "title": "Brazilian real",
+      "iso4217Code": "brl",
       "symbol": "R$"
     },
     {
-      "name": "Canadian dollar",
-      "shortName": "cad",
+      "title": "Canadian dollar",
+      "iso4217Code": "cad",
       "symbol": "$"
     },
     {
-      "name": "Swiss franc",
-      "shortName": "chf",
+      "title": "Swiss franc",
+      "iso4217Code": "chf",
       "symbol": "CHF"
     },
     {
-      "name": "Chilean peso",
-      "shortName": "clp",
+      "title": "Chilean peso",
+      "iso4217Code": "clp",
       "symbol": "$"
     },
     {
-      "name": "Renminbi",
-      "shortName": "cny",
+      "title": "Renminbi",
+      "iso4217Code": "cny",
       "symbol": "¥"
     },
     {
-      "name": "Czech koruna",
-      "shortName": "czk",
+      "title": "Czech koruna",
+      "iso4217Code": "czk",
       "symbol": "Kč"
     },
     {
-      "name": "Danish krone",
-      "shortName": "dkk",
+      "title": "Danish krone",
+      "iso4217Code": "dkk",
       "symbol": "kr."
     },
     {
-      "name": "Hong Kong dollar",
-      "shortName": "hkd",
+      "title": "Hong Kong dollar",
+      "iso4217Code": "hkd",
       "symbol": "HK$"
     },
     {
-      "name": "Hungarian forint",
-      "shortName": "huf",
+      "title": "Hungarian forint",
+      "iso4217Code": "huf",
       "symbol": "Ft"
     },
     {
-      "name": "Indonesian rupiah",
-      "shortName": "idr",
+      "title": "Indonesian rupiah",
+      "iso4217Code": "idr",
       "symbol": "Rp"
     },
     {
-      "name": "Shekel sign",
-      "shortName": "ils",
+      "title": "Shekel sign",
+      "iso4217Code": "ils",
       "symbol": "₪"
     },
     {
-      "name": "Indian rupee",
-      "shortName": "inr",
+      "title": "Indian rupee",
+      "iso4217Code": "inr",
       "symbol": "₹"
     },
     {
-      "name": "Japanese yen",
-      "shortName": "jpy",
+      "title": "Japanese yen",
+      "iso4217Code": "jpy",
       "symbol": "¥"
     },
     {
-      "name": "South Korean won",
-      "shortName": "krw",
+      "title": "South Korean won",
+      "iso4217Code": "krw",
       "symbol": "₩"
     },
     {
-      "name": "Kuwaiti dinar",
-      "shortName": "kwd",
+      "title": "Kuwaiti dinar",
+      "iso4217Code": "kwd",
       "symbol": "د.ك"
     },
     {
-      "name": "Sri Lankan rupee",
-      "shortName": "lkr",
+      "title": "Sri Lankan rupee",
+      "iso4217Code": "lkr",
       "symbol": "Re"
     },
     {
-      "name": "Myanmar kyat",
-      "shortName": "mmk",
+      "title": "Myanmar kyat",
+      "iso4217Code": "mmk",
       "symbol": "K"
     },
     {
-      "name": "Mexican peso",
-      "shortName": "mxn",
+      "title": "Mexican peso",
+      "iso4217Code": "mxn",
       "symbol": "Mex$"
     },
     {
-      "name": "Malaysian ringgit",
-      "shortName": "myr",
+      "title": "Malaysian ringgit",
+      "iso4217Code": "myr",
       "symbol": "RM"
     },
     {
-      "name": "Nigerian naira",
-      "shortName": "ngn",
+      "title": "Nigerian naira",
+      "iso4217Code": "ngn",
       "symbol": "₦"
     },
     {
-      "name": "Norwegian krone",
-      "shortName": "nok",
+      "title": "Norwegian krone",
+      "iso4217Code": "nok",
       "symbol": "kr"
     },
     {
-      "name": "New Zealand dollar",
-      "shortName": "nzd",
+      "title": "New Zealand dollar",
+      "iso4217Code": "nzd",
       "symbol": "$"
     },
     {
-      "name": "Philippine peso",
-      "shortName": "php",
+      "title": "Philippine peso",
+      "iso4217Code": "php",
       "symbol": "₱"
     },
     {
-      "name": "Pakistani rupee",
-      "shortName": "pkr",
+      "title": "Pakistani rupee",
+      "iso4217Code": "pkr",
       "symbol": "Re"
     },
     {
-      "name": "Saudi riyal",
-      "shortName": "sar",
+      "title": "Saudi riyal",
+      "iso4217Code": "sar",
       "symbol": "ر.س"
     },
     {
-      "name": "Swedish krona",
-      "shortName": "sek",
+      "title": "Swedish krona",
+      "iso4217Code": "sek",
       "symbol": "kr"
     },
     {
-      "name": "Singapore dollar",
-      "shortName": "sgd",
+      "title": "Singapore dollar",
+      "iso4217Code": "sgd",
       "symbol": "S$"
     },
     {
-      "name": "Thai baht",
-      "shortName": "thb",
+      "title": "Thai baht",
+      "iso4217Code": "thb",
       "symbol": "฿"
     },
     {
-      "name": "Turkish lira",
-      "shortName": "try",
+      "title": "Turkish lira",
+      "iso4217Code": "try",
       "symbol": "₺"
     },
     {
-      "name": "New Taiwan dollar",
-      "shortName": "twd",
+      "title": "New Taiwan dollar",
+      "iso4217Code": "twd",
       "symbol": "NT$"
     },
     {
-      "name": "Ukrainian hryvnia",
-      "shortName": "uah",
+      "title": "Ukrainian hryvnia",
+      "iso4217Code": "uah",
       "symbol": "₴"
     },
     {
-      "name": "Venezuelan bolívar",
-      "shortName": "vef",
+      "title": "Venezuelan bolívar",
+      "iso4217Code": "vef",
       "symbol": "Bs."
     },
     {
-      "name": "Vietnamese đồng",
-      "shortName": "vnd",
+      "title": "Viettitlese đồng",
+      "iso4217Code": "vnd",
       "symbol": "₫"
     },
     {
-      "name": "South African rand",
-      "shortName": "zar",
+      "title": "South African rand",
+      "iso4217Code": "zar",
       "symbol": "R"
     },
     {
-      "name": "Special drawing rights",
-      "shortName": "xdr",
+      "title": "Special drawing rights",
+      "iso4217Code": "xdr",
       "symbol": "SDR"
     },
     {
-      "name": "Silver Ounce",
-      "shortName": "xag",
+      "title": "Silver Ounce",
+      "iso4217Code": "xag",
       "symbol": "Oz"
     }
   ]
