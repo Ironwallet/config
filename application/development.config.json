@@ -3,9 +3,9 @@
     "androidPackage": "com.ironwallet.dev",
     "appStoreId": "1658782179",
     "stableVersion": {
-      "major": 2,
+      "major": 1,
       "minor": 0,
-      "patch": 0
+      "patch": 2
     },
     "latestVersion": {
       "major": 1,
