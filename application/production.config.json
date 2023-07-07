@@ -14,7 +14,7 @@
     }
   },
   "feature": {
-    "enableGaslessTransfer": true,
-    "enableGaslessExchange": true
+    "enableGaslessTransfer": false,
+    "enableGaslessExchange": false
   }
 }
