@@ -1,0 +1,20 @@
+{
+  "application": {
+    "androidPackage": "com.ironwallet.dev",
+    "appStoreId": "1658782179",
+    "stableVersion": {
+      "major": 1,
+      "minor": 0,
+      "patch": 2
+    },
+    "latestVersion": {
+      "major": 1,
+      "minor": 0,
+      "patch": 2
+    }
+  },
+  "feature": {
+    "enableGaslessTransfer": false,
+    "enableGaslessExchange": false
+  }
+}
