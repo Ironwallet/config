@@ -15,6 +15,11 @@
   },
   "feature": {
     "enableGaslessTransfer": false,
-    "enableGaslessExchange": false
+    "enableGaslessExchange": false,
+    "exchange": {
+      "useAutoDetection": true,
+      "enableExchange": true,
+      "enableCrossNetExchange": true
+    }
   }
 }
