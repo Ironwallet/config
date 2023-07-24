@@ -19,7 +19,150 @@
     "exchange": {
       "useAutoDetection": true,
       "enableExchange": true,
-      "enableCrossNetExchange": false
+      "enableCrossNetExchange": false,
+      "addresses": {
+        "0xdef1c0ded9bec7f1a1670819833240f027b25eff": {
+          "type": "exchange",
+          "chains": ["1", "56", "137", "43114", "42220", "42161"],
+          "note": "0x"
+        },
+        "0xf91bb752490473b8342a3e964e855b9f9a2a668e": {
+          "type": "exchange",
+          "chains": ["5"],
+          "note": "0x"
+        },
+        "0xf471d32cb40837bf24529fcf17418fc1a4807626": {
+          "type": "exchange",
+          "chains": ["80001"],
+          "note": "0x"
+        },
+        "0xdef189deaef76e379df891899eb5a00a94cbc250": {
+          "type": "exchange",
+          "chains": ["250"],
+          "note": "0x"
+        },
+        "0xdef1abe32c034e558cdd535791643c58a13acc10": {
+          "type": "exchange",
+          "chains": ["10"],
+          "note": "0x"
+        },
+        "0x8F66c4AE756BEbC49Ec8B81966DD8bba9f127549": {
+          "type": "crossExchange",
+          "chains": ["43114"],
+          "note": "thorchain router avalanche"
+        },
+        "0xD37BbE5744D730a1d98d8DC97c42F0Ca46aD7146": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain router ethereum"
+        },
+        "0xd31f7e39afECEc4855fecc51b693F9A0Cec49fd2": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain TSAggregatorGeneric ethereum"
+        },
+        "0x7C38b8B2efF28511ECc14a621e263857Fb5771d3": {
+          "type": "crossExchange",
+          "chains": ["1", "43114"],
+          "note": "thorchain TSAggregatorUniswapV2 ethereum"
+        },
+        "0x1C0Ee4030f771a1BB8f72C86150730d063f6b3ff": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain TSAggregatorUniswapV3 500 ethereum"
+        },
+        "0x96ab925EFb957069507894CD941F40734f0288ad": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain TSAggregatorUniswapV3 3000 ethereum"
+        },
+        "0xE308B9562de7689B2d31C76a41649933F38ab761": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain TSAggregatorUniswapV3 10000 ethereum"
+        },
+        "0x3660dE6C56cFD31998397652941ECe42118375DA": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain TSAggregator2LegUniswapV2 USDC ethereum"
+        },
+        "0x0F2CD5dF82959e00BE7AfeeF8245900FC4414199": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorchain TSAggregator SUSHIswap ethereum"
+        },
+
+        "0x86904eb2b3c743400d03f929f2246efa80b91215": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap UniswapV2 aggegator ethereum"
+        },
+        "0xbf365e79aa44a2164da135100c57fdb6635ae870": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap Sushiswap aggegator ethereum"
+        },
+        "0xbd68cbe6c247e2c3a0e36b8f0e24964914f26ee8": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap UniswapV3 (0.01%) aggegator ethereum"
+        },
+        "0xe4ddca21881bac219af7f217703db0475d2a9f02": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap UniswapV3 (0.05%) aggegator ethereum"
+        },
+        "0x11733abf0cdb43298f7e949c930188451a9a9ef2": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap UniswapV3 (0.3%) aggegator ethereum"
+        },
+        "0xb33874810e5395eb49d8bd7e912631db115d5a03": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap UniswapV3 (1%) aggegator ethereum"
+        },
+        "0x35CF22003c90126528fbe95b21bB3ADB2ca8c53D": {
+          "type": "crossExchange",
+          "chains": ["1"],
+          "note": "thorswap PancakeSwap aggegator ethereum"
+        },
+        "0x942c6dA485FD6cEf255853ef83a149d43A73F18a": {
+          "type": "crossExchange",
+          "chains": ["43114"],
+          "note": "thorswap Pangolin aggegator avalanche"
+        },
+        "0x3b7DbdD635B99cEa39D3d95Dbd0217F05e55B212": {
+          "type": "crossExchange",
+          "chains": ["43114"],
+          "note": "thorswap TraderJoe aggegator avalanche"
+        },
+        "0x5505BE604dFA8A1ad402A71f8A357fba47F9bf5a": {
+          "type": "crossExchange",
+          "chains": ["43114"],
+          "note": "thorswap Woofi aggegator avalanche"
+        },
+        "0x30912B38618D3D37De3191A4FFE982C65a9aEC2E": {
+          "type": "crossExchange",
+          "chains": ["56"],
+          "note": "thorswap PancakeSwap aggegator bsc"
+        },
+        "0xB6fA6f1DcD686F4A573Fd243a6FABb4ba36Ba98c": {
+          "type": "crossExchange",
+          "chains": ["56"],
+          "note": "thorswap Generic aggegator bsc"
+        },
+        "TEAkWaP4dKzD3DXs4TEzRdPnBA2zautG9R": {
+          "type": "exchange",
+          "chains": ["5"],
+          "note": "sunswap testnet"
+        },
+        "TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax": {
+          "type": "exchange",
+          "chains": ["1"],
+          "note": "sunswap mainnet"
+        }
+      }
     }
   }
 }
