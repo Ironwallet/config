@@ -46,6 +46,36 @@
           "chains": ["10"],
           "note": "0x"
         },
+        "0x22f9dcf4647084d6c31b2765f6910cd85c178c18": {
+          "type": "exchange",
+          "chains": ["1"],
+          "note": "0x"
+        },
+        "0xF15469C80a1965f5f90bE5651FCB6C6F3392B2a1": {
+          "type": "exchange",
+          "chains": ["5"],
+          "note": "0x"
+        },
+        "0xdb6f1920a889355780af7570773609bd8cb1f498": {
+          "type": "exchange",
+          "chains": ["56", "137", "43114", "42220", "42161"],
+          "note": "0x"
+        },
+        "0x64254Cf2F3AbD765BeE46f8445B76e2bB0aF5A2c": {
+          "type": "exchange",
+          "chains": ["8001"],
+          "note": "0x"
+        },
+        "0xb4d961671cadfed687e040b076eee29840c142e5": {
+          "type": "exchange",
+          "chains": ["250"],
+          "note": "0x"
+        },
+        "0xa3128d9b7cca7d5af29780a56abeec12b05a6740": {
+          "type": "exchange",
+          "chains": ["10"],
+          "note": "0x"
+        },
         "0x8F66c4AE756BEbC49Ec8B81966DD8bba9f127549": {
           "type": "crossExchange",
           "chains": ["43114"],
