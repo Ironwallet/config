@@ -16,6 +16,92 @@
   "feature": {
     "enableGaslessTransfer": true,
     "enableGaslessExchange": false,
+    "stableTokens": {
+      "ethereum": [
+        {
+          "externalId": "weth",
+          "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "name": "Wrapped ETH",
+          "symbol": "WETH",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "usd-coin",
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "tether",
+          "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "decimals": 6,
+          "useResetForApprove": true,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "dai",
+          "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        }
+      ],
+      "tron": [
+        {
+          "externalId": "wrapped-tron",
+          "address": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR",
+          "name": "Wrapped TRX",
+          "symbol": "WTRX",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "tether",
+          "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "usdd",
+          "address": "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn",
+          "name": "Decentralized USD",
+          "symbol": "USDD",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "usd-coin",
+          "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        }
+      ]
+    },
     "exchange": {
       "useAutoDetection": true,
       "enableExchange": true,
