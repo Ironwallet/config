@@ -16,6 +16,82 @@
   "feature": {
     "enableGaslessTransfer": true,
     "enableGaslessExchange": true,
+    "stableTokens": {
+      "ethereum": [
+        {
+          "externalId": "weth",
+          "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+          "name": "Wrapped ETH",
+          "symbol": "WETH",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "usd-coin",
+          "address": "0xeeDF8CB30F8E4750Ce4361Ed48169940F007906F",
+          "name": "USD//C Test",
+          "symbol": "USDC",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "tether",
+          "address": "0x91894eCCE373504Cdd22ce66aBe2abcdD59e74ab",
+          "name": "USDT Test",
+          "symbol": "USDT",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "dai",
+          "address": "0x3fe1377B18E25E74F4d4270766EdF038137d91A9",
+          "name": "DAI Test",
+          "symbol": "DAI",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        }
+      ],
+      "tron": [
+        {
+          "externalId": "tether",
+          "address": "TVnFbxVHgu5EgCocuSB4AwKVWyscPgAodE",
+          "name": "USDT Test",
+          "symbol": "USDT",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "usdd",
+          "address": "TEYPs9bE4z4ZuU99rk9ekbbBbaR3bYooGu",
+          "name": "USDD Test",
+          "symbol": "USDD",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "usd-coin",
+          "address": "TWL445jrVsBZEKN8TBqzuNQvfFp61WARnR",
+          "name": "USDC Test",
+          "symbol": "USDC",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        }
+      ]
+    },
     "exchange": {
       "useAutoDetection": true,
       "enableExchange": true,
