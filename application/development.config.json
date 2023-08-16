@@ -62,7 +62,7 @@
       "tron": [
         {
           "externalId": "tether",
-          "address": "TVnFbxVHgu5EgCocuSB4AwKVWyscPgAodE",
+          "address": "TH9sPoh12RxkKHQUXJeL8GZvbP3CZHKxCF",
           "name": "USDT Test",
           "symbol": "USDT",
           "decimals": 6,
@@ -72,7 +72,7 @@
         },
         {
           "externalId": "usdd",
-          "address": "TEYPs9bE4z4ZuU99rk9ekbbBbaR3bYooGu",
+          "address": "TQ9hCr5JcS1rQQekcUQ8R2pwbJxLGjSEHm",
           "name": "USDD Test",
           "symbol": "USDD",
           "decimals": 18,
@@ -82,7 +82,7 @@
         },
         {
           "externalId": "usd-coin",
-          "address": "TWL445jrVsBZEKN8TBqzuNQvfFp61WARnR",
+          "address": "TQS7t1RZfGkss54umxZfxq8371HyqHLjCR",
           "name": "USDC Test",
           "symbol": "USDC",
           "decimals": 6,
