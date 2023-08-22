@@ -16,6 +16,28 @@
   "feature": {
     "enableGaslessTransfer": true,
     "enableGaslessExchange": true,
+    "gaslessOpts": {
+      "ethereum": {
+        "enableGaslessTransfer": true,
+        "enableGaslessExchange": false
+      },
+      "tron": {
+        "enableGaslessTransfer": true,
+        "enableGaslessExchange": false
+      },
+      "bsc": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "polygon": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "avalanche": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      }
+    },
     "stableTokens": {
       "ethereum": [
         {
@@ -66,8 +88,8 @@
           "name": "USDT Test",
           "symbol": "USDT",
           "decimals": 6,
-          "useResetForApprove": false,
-          "useIncreaseAllowance": true,
+          "useResetForApprove": true,
+          "useIncreaseAllowance": false,
           "status": "active"
         },
         {
