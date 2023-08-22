@@ -16,6 +16,28 @@
   "feature": {
     "enableGaslessTransfer": true,
     "enableGaslessExchange": false,
+    "gaslessOpts": {
+      "ethereum": {
+        "enableGaslessTransfer": true,
+        "enableGaslessExchange": false
+      },
+      "tron": {
+        "enableGaslessTransfer": true,
+        "enableGaslessExchange": false
+      },
+      "bsc": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "polygon": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "avalanche": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      }
+    },
     "stableTokens": {
       "ethereum": [
         {
