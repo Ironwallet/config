@@ -22,7 +22,7 @@
         "enableGaslessExchange": false
       },
       "tron": {
-        "enableGaslessTransfer": true,
+        "enableGaslessTransfer": false,
         "enableGaslessExchange": false
       },
       "bsc": {
