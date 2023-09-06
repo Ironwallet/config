@@ -18,11 +18,11 @@
     "enableGaslessExchange": false,
     "gaslessOpts": {
       "ethereum": {
-        "enableGaslessTransfer": false,
-        "enableGaslessExchange": false
+        "enableGaslessTransfer": true,
+        "enableGaslessExchange": true
       },
       "tron": {
-        "enableGaslessTransfer": false,
+        "enableGaslessTransfer": true,
         "enableGaslessExchange": false
       },
       "bsc": {
