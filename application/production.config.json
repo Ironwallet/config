@@ -14,7 +14,7 @@
     }
   },
   "feature": {
-    "enableGaslessTransfer": false,
+    "enableGaslessTransfer": true,
     "enableGaslessExchange": false,
     "gaslessOpts": {
       "ethereum": {
