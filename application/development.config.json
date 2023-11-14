@@ -291,6 +291,15 @@
           "note": "sunswap mainnet"
         }
       }
-    }
+    },
+    "electrum": [
+      "ssl://electrum.blockstream.info:60002",
+      "ssl://blockstream.info:993",
+      "ssl://blackie.c3-soft.com:57006",
+      "ssl://testnet.aranguren.org:51002",
+      "ssl://testnet.hsmiths.com:53012",
+      "ssl://testnet.qtornado.com:51002",
+      "ssl://tn.not.fyi:55002"
+    ]
   }
 }
