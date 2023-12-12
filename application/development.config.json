@@ -13,6 +13,9 @@
       "patch": 2
     }
   },
+  "nfc": {
+    "exportLock": false
+  },
   "feature": {
     "enableGaslessTransfer": true,
     "enableGaslessExchange": true,
