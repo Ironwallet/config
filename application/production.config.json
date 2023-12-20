@@ -14,6 +14,7 @@
     }
   },
   "nfc": {
+    "exportDeeplink": false,
     "exportLock": false
   },
   "feature": {
