@@ -13,7 +13,10 @@
       "major": 1,
       "minor": 1,
       "patch": 5
-    }
+    },
+    "feeBannerTokenIds": [
+      "tron"
+    ]
   },
   "nfc": {
     "exportDeeplink": false,
