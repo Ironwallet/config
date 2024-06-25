@@ -13,7 +13,11 @@
       "major": 1,
       "minor": 1,
       "patch": 5
-    }
+    },
+    "feeBannerTokenIds": [
+      "tron",
+      "solana"
+    ]
   },
   "nfc": {
     "exportDeeplink": false,
