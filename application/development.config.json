@@ -15,7 +15,8 @@
       "patch": 5
     },
     "feeBannerTokenIds": [
-      "tron"
+      "tron",
+      "solana"
     ]
   },
   "nfc": {
