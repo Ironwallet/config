@@ -2,7 +2,7 @@
   "application": {
     "androidPackage": "com.ironwallet.dev",
     "appStoreId": "1658782179",
-    "turnOnBuyOnIos": true,
+    "turnOnBuyOnIos": false,
     "turnOnDAppsOnIos": false,
     "stableVersion": {
       "major": 1,
