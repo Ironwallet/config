@@ -1,6 +1,6 @@
 {
   "application": {
-    "androidPackage": "com.ironwallet.dev",
+    "androidPackage": "com.wallet.crypto.btc.eth",
     "appStoreId": "1658782179",
     "turnOnBuyOnIos": false,
     "turnOnDAppsOnIos": false,
