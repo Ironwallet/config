@@ -6,13 +6,13 @@
     "turnOnDAppsOnIos": false,
     "stableVersion": {
       "major": 1,
-      "minor": 0,
-      "patch": 2
+      "minor": 3,
+      "patch": 1
     },
     "latestVersion": {
       "major": 1,
-      "minor": 1,
-      "patch": 5
+      "minor": 3,
+      "patch": 1
     },
     "feeBannerTokenIds": [
       "tron"
