@@ -1,7 +1,7 @@
 {
   "application": {
     "androidPackage": "com.wallet.crypto.btc.eth",
-    "appStoreId": "1658782179",
+    "appStoreId": "6451146325",
     "turnOnBuyOnIos": false,
     "turnOnDAppsOnIos": false,
     "stableVersion": {
