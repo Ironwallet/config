@@ -136,7 +136,7 @@
     "exchange": {
       "useAutoDetection": true,
       "enableExchange": true,
-      "enableCrossNetExchange": true,
+      "enableCrossNetExchange": false,
       "addresses": {
         "0xdef1c0ded9bec7f1a1670819833240f027b25eff": {
           "type": "exchange",
