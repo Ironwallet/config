@@ -4,6 +4,7 @@
     "appStoreId": "1658782356",
     "turnOnBuyOnIos": true,
     "turnOnDAppsOnIos": false,
+    "turnOnDAppsOnAndroid": false,
     "stableVersion": {
       "major": 1,
       "minor": 0,
