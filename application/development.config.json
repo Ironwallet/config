@@ -5,6 +5,7 @@
     "turnOnBuyOnIos": false,
     "turnOnDAppsOnIos": true,
     "turnOnDAppsOnAndroid": true,
+    "enableSwap": true,
     "stableVersion": {
       "major": 1,
       "minor": 0,
