@@ -314,8 +314,6 @@
       }
     },
     "electrum": [
-      "ssl://blockstream.info:700",
-      "ssl://xtrum.com:50002",
       "ssl://104.248.139.211:50002",
       "ssl://128.0.190.26:50002",
       "ssl://142.93.6.38:50002",
@@ -333,11 +331,14 @@
       "ssl://VPS.hsmiths.com:50002",
       "ssl://alviss.coinjoined.com:50002",
       "ssl://assuredly.not.fyi:50002",
+      "ssl://bejqtnc64qttdempkczylydg7l3ordwugbdar7yqbndck53ukx7wnwad.onion:50002",
       "ssl://bitcoin.aranguren.org:50002",
       "ssl://bitcoin.lu.ke:50002",
       "ssl://bitcoins.sk:56002",
       "ssl://blackie.c3-soft.com:57002",
       "ssl://blkhub.net:50002",
+      "ssl://blockstream.info:700",
+      "ssl://btc.electroncash.dk:60002",
       "ssl://btc.litepay.ch:50002",
       "ssl://btc.ocf.sh:50002",
       "ssl://btce.iiiiiii.biz:50002",
@@ -346,6 +347,7 @@
       "ssl://e2.keff.org:50002",
       "ssl://eai.coincited.net:50002",
       "ssl://ecdsa.net:110",
+      "ssl://egyh5mutxwcvwhlvjubf6wytwoq5xxvfb2522ocx77puc6ihmffrh6id.onion:50002",
       "ssl://electrum.bitaroo.net:50002",
       "ssl://electrum.blockstream.info:50002",
       "ssl://electrum.dcn.io:50002",
@@ -371,15 +373,24 @@
       "ssl://hodlers.beer:50002",
       "ssl://horsey.cryptocowboys.net:50002",
       "ssl://kareoke.qoppa.org:50002",
+      "ssl://kittycp2gatrqhlwpmbczk5rblw62enrpo2rzwtkfrrr27hq435d4vid.onion:50002",
       "ssl://lavahost.org:50002",
       "ssl://node.degga.net:50002",
       "ssl://node1.btccuracao.com:50002",
+      "ssl://nuzzg3pku3xbctgamzq3pf7ztakkiidnmmier64arqwh3ajdddovatad.onion:50002",
+      "ssl://qly7g5n5t3f3h23xvbp44vs6vpmayurno4basuu5rcvrupli7y2jmgid.onion:50002",
+      "ssl://rzspa374ob3hlyjptkdgz6a62wim2mpanuw6m3shlwn2cxg2smy3p7yd.onion:50004",
       "ssl://skbxmit.coinjoined.com:50002",
       "ssl://smmalis37.ddns.net:50002",
       "ssl://stavver.dyshek.org:50002",
       "ssl://tardis.bauerj.eu:50002",
+      "ssl://ty6cgwaf2pbc244gijtmpfvte3wwfp32wgz57eltjkgtsel2q7jufjyd.onion:50002",
+      "ssl://udfpzbte2hommnvag5f3qlouqkhvp3xybhlus2yvfeqdwlhjroe4bbyd.onion:60002",
+      "ssl://venmrle3xuwkgkd42wg7f735l6cghst3sdfa3w3ryib2rochfhld6lid.onion:50002",
       "ssl://vmd71287.contaboserver.net:50002",
-      "ssl://vmd84592.contaboserver.net:50002"
+      "ssl://vmd84592.contaboserver.net:50002",
+      "ssl://wsw6tua3xl24gsmi264zaep6seppjyrkyucpsmuxnjzyt3f3j6swshad.onion:50002",
+      "ssl://xtrum.com:50002"
     ]
   }
 }
