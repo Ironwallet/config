@@ -5,6 +5,8 @@
     "turnOnBuyOnIos": false,
     "turnOnDAppsOnIos": true,
     "turnOnDAppsOnAndroid": true,
+    "enableIwbTransactionHistory": true,
+    "enableIwbBalances": true,
     "enableSwap": true,
     "stableVersion": {
       "major": 1,
