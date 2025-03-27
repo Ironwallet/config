@@ -3,8 +3,8 @@
     "androidPackage": "com.ironwallet.pre",
     "appStoreId": "1658782356",
     "turnOnBuyOnIos": false,
-    "turnOnDAppsOnIos": false,
-    "turnOnDAppsOnAndroid": false,
+    "turnOnDAppsOnIos": true,
+    "turnOnDAppsOnAndroid": true,
     "enableSwap": true,
     "stableVersion": {
       "major": 1,
