@@ -314,20 +314,20 @@
       }
     },
     "electrum": [
-      "ssl://mempool.8333.mobi:50002",
-      "ssl://static.82.9.235.167.clients.your-server.de:50002",
-      "ssl://167.235.9.82:50002",
-      "ssl://54.36.168.56:50002",
       "ssl://btc.reichster.de:50002",
-      "ssl://electrum.tjader.xyz:50002",
-      "ssl://ip212-227-150-147.pbiaas.com:50002",
-      "ssl://api.ordimint.com:50002",
-      "ssl://tool.sh:50002",
-      "ssl://bitexplorer.org:50002",
       "ssl://electrum.blockstream.info:50002",
-      "ssl://fortress.qtornado.com:50002",
-      "ssl://coin01.ssdata.dk:50002",
-      "ssl://fortress.qtornado.com:443"
+      "ssl://fakenews.fiatfaucet.com:50002",
+      "ssl://fulcrum.sethforprivacy.com:50002",
+      "ssl://blackie.c3-soft.com:57002",
+      "ssl://fulcrum2.not.fyi:51002",
+      "ssl://blockstream.info:700",
+      "ssl://btc.electroncash.dk:60002",
+      "ssl://electrum.coinucopia.io:50002",
+      "ssl://bitexplorer.org:50002",
+      "ssl://5.189.171.159:50002",
+      "ssl://fulcrum1.getsrt.net:50002",
+      "ssl://bitcoin.aranguren.org:50002",
+      "ssl://electrum.emzy.de:50002"
     ]
   }
 }
