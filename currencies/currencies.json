@@ -3,237 +3,284 @@
     {
       "title": "Dollar USA",
       "iso4217Code": "usd",
-      "symbol": "$"
+      "symbol": "$",
+      "smallAmount": "0.01"
     },
     {
       "title": "Euro",
       "iso4217Code": "eur",
-      "symbol": "€"
+      "symbol": "€",
+      "smallAmount": "0.01"
     },
     {
       "title": "British pound sterling",
       "iso4217Code": "gbp",
-      "symbol": "£"
+      "symbol": "£",
+      "smallAmount": "0.01"
     },
     {
       "title": "The Polish Zloty",
       "iso4217Code": "pln",
-      "symbol": "zł"
+      "symbol": "zł",
+      "smallAmount": "0.04"
     },
     {
       "title": "Russian ruble",
       "iso4217Code": "rub",
-      "symbol": "₽"
+      "symbol": "₽",
+      "smallAmount": "1"
     },
     {
       "title": "United Arab Emirates dirham",
       "iso4217Code": "aed",
-      "symbol": "DH"
+      "symbol": "DH",
+      "smallAmount": "0.037"
     },
     {
       "title": "Argentine peso",
       "iso4217Code": "ars",
-      "symbol": "Arg$"
+      "symbol": "Arg$",
+      "smallAmount": "8.5"
     },
     {
       "title": "Australian dollar",
       "iso4217Code": "aud",
-      "symbol": "$"
+      "symbol": "$",
+      "smallAmount": "0.015"
     },
     {
       "title": "Bangladeshi taka",
       "iso4217Code": "bdt",
-      "symbol": "৳"
+      "symbol": "৳",
+      "smallAmount": "1"
     },
     {
       "title": "Bahraini dinar",
       "iso4217Code": "bhd",
-      "symbol": "BD"
+      "symbol": "BD",
+      "smallAmount": "0.0038"
     },
     {
       "title": "Bermudian dollar",
       "iso4217Code": "bmd",
-      "symbol": "$"
+      "symbol": "$",
+      "smallAmount": "0.01"
     },
     {
       "title": "Brazilian real",
       "iso4217Code": "brl",
-      "symbol": "R$"
+      "symbol": "R$",
+      "smallAmount": "0.05"
     },
     {
       "title": "Canadian dollar",
       "iso4217Code": "cad",
-      "symbol": "$"
+      "symbol": "$",
+      "smallAmount": "0.014"
     },
     {
       "title": "Swiss franc",
       "iso4217Code": "chf",
-      "symbol": "CHF"
+      "symbol": "CHF",
+      "smallAmount": "0.01"
     },
     {
       "title": "Chilean peso",
       "iso4217Code": "clp",
-      "symbol": "$"
+      "symbol": "$",
+      "smallAmount": "9.5"
     },
     {
       "title": "Renminbi",
       "iso4217Code": "cny",
-      "symbol": "¥"
+      "symbol": "¥",
+      "smallAmount": "0.072"
     },
     {
       "title": "Czech koruna",
       "iso4217Code": "czk",
-      "symbol": "Kč"
+      "symbol": "Kč",
+      "smallAmount": "0.23"
     },
     {
       "title": "Danish krone",
       "iso4217Code": "dkk",
-      "symbol": "kr."
+      "symbol": "kr.",
+      "smallAmount": "0.068"
     },
     {
       "title": "Hong Kong dollar",
       "iso4217Code": "hkd",
-      "symbol": "HK$"
+      "symbol": "HK$",
+      "smallAmount": "0.078"
     },
     {
       "title": "Hungarian forint",
       "iso4217Code": "huf",
-      "symbol": "Ft"
+      "symbol": "Ft",
+      "smallAmount": "3.6"
     },
     {
       "title": "Indonesian rupiah",
       "iso4217Code": "idr",
-      "symbol": "Rp"
+      "symbol": "Rp",
+      "smallAmount": "155"
     },
     {
       "title": "Shekel sign",
       "iso4217Code": "ils",
-      "symbol": "₪"
+      "symbol": "₪",
+      "smallAmount": "0.037"
     },
     {
       "title": "Indian rupee",
       "iso4217Code": "inr",
-      "symbol": "₹"
+      "symbol": "₹",
+      "smallAmount": "0.83"
     },
     {
       "title": "Japanese yen",
       "iso4217Code": "jpy",
-      "symbol": "¥"
+      "symbol": "¥",
+      "smallAmount": "1.5"
     },
     {
       "title": "South Korean won",
       "iso4217Code": "krw",
-      "symbol": "₩"
+      "symbol": "₩",
+      "smallAmount": "13.5"
     },
     {
       "title": "Kuwaiti dinar",
       "iso4217Code": "kwd",
-      "symbol": "د.ك"
+      "symbol": "د.ك",
+      "smallAmount": "0.0031"
     },
     {
       "title": "Sri Lankan rupee",
       "iso4217Code": "lkr",
-      "symbol": "Re"
+      "symbol": "Re",
+      "smallAmount": "3.2"
     },
     {
       "title": "Myanmar kyat",
       "iso4217Code": "mmk",
-      "symbol": "K"
+      "symbol": "K",
+      "smallAmount": "21"
     },
     {
       "title": "Mexican peso",
       "iso4217Code": "mxn",
-      "symbol": "Mex$"
+      "symbol": "Mex$",
+      "smallAmount": "0.17"
     },
     {
       "title": "Malaysian ringgit",
       "iso4217Code": "myr",
-      "symbol": "RM"
+      "symbol": "RM",
+      "smallAmount": "0.047"
     },
     {
       "title": "Nigerian naira",
       "iso4217Code": "ngn",
-      "symbol": "₦"
+      "symbol": "₦",
+      "smallAmount": "15.5"
     },
     {
       "title": "Norwegian krone",
       "iso4217Code": "nok",
-      "symbol": "kr"
+      "symbol": "kr",
+      "smallAmount": "0.11"
     },
     {
       "title": "New Zealand dollar",
       "iso4217Code": "nzd",
-      "symbol": "$"
+      "symbol": "$",
+      "smallAmount": "0.016"
     },
     {
       "title": "Philippine peso",
       "iso4217Code": "php",
-      "symbol": "₱"
+      "symbol": "₱",
+      "smallAmount": "0.56"
     },
     {
       "title": "Pakistani rupee",
       "iso4217Code": "pkr",
-      "symbol": "Re"
+      "symbol": "Re",
+      "smallAmount": "2.8"
     },
     {
       "title": "Saudi riyal",
       "iso4217Code": "sar",
-      "symbol": "ر.س"
+      "symbol": "ر.س",
+      "smallAmount": "0.037"
     },
     {
       "title": "Swedish krona",
       "iso4217Code": "sek",
-      "symbol": "kr"
+      "symbol": "kr",
+      "smallAmount": "0.11"
     },
     {
       "title": "Singapore dollar",
       "iso4217Code": "sgd",
-      "symbol": "S$"
+      "symbol": "S$",
+      "smallAmount": "0.013"
     },
     {
       "title": "Thai baht",
       "iso4217Code": "thb",
-      "symbol": "฿"
+      "symbol": "฿",
+      "smallAmount": "0.36"
     },
     {
       "title": "Turkish lira",
       "iso4217Code": "try",
-      "symbol": "₺"
+      "symbol": "₺",
+      "smallAmount": "0.31"
     },
     {
       "title": "New Taiwan dollar",
       "iso4217Code": "twd",
-      "symbol": "NT$"
+      "symbol": "NT$",
+      "smallAmount": "0.32"
     },
     {
       "title": "Ukrainian hryvnia",
       "iso4217Code": "uah",
-      "symbol": "₴"
+      "symbol": "₴",
+      "smallAmount": "0.37"
     },
     {
       "title": "Venezuelan bolívar",
       "iso4217Code": "vef",
-      "symbol": "Bs."
+      "symbol": "Bs.",
+      "smallAmount": "0.36"
     },
     {
       "title": "Viettitlese đồng",
       "iso4217Code": "vnd",
-      "symbol": "₫"
+      "symbol": "₫",
+      "smallAmount": "245"
     },
     {
       "title": "South African rand",
       "iso4217Code": "zar",
-      "symbol": "R"
+      "symbol": "R",
+      "smallAmount": "0.19"
     },
     {
       "title": "Special drawing rights",
       "iso4217Code": "xdr",
-      "symbol": "SDR"
+      "symbol": "SDR",
+      "smallAmount": "0.01"
     },
     {
       "title": "Silver Ounce",
       "iso4217Code": "xag",
-      "symbol": "Oz"
+      "symbol": "Oz",
+      "smallAmount": "0.0004"
     }
   ]
 }
