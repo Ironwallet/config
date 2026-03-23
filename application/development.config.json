@@ -17,7 +17,7 @@
 		"latestVersion": {
 			"major": 1,
 			"minor": 10,
-			"patch": 0
+			"patch": 2
 		},
 		"feeBannerTokenIds": [
 			"tron"
@@ -28,6 +28,27 @@
 		"exportLock": false
 	},
 	"feature": {
+		"platforms":{
+			"ios":{
+				"buysell": { 
+					"enabled":true, 
+					"unallowedCountries":[] 
+					},
+				"crossChainSwap": { 
+					"enabled":true, 
+					"unallowedCountries":["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA"] 
+					}
+				},
+				"android":{
+					"buysell": { 
+						"enabled":true, "unallowedCountries":[] 
+					},
+				"crossChainSwap": { 
+					"enabled":true, 
+					"unallowedCountries":[] 
+				}
+			}
+	    },
 		"enableGaslessTransfer": true,
 		"enableGaslessExchange": true,
 		"gaslessOpts": {
