@@ -7,16 +7,16 @@
     "turnOnDAppsOnAndroid": true,
     "enableSwap": true,
 	"rateAppReminderInterval": 1800,
-    "stableVersion": {
-      "major": 1,
-      "minor": 9,
-      "patch": 7
-    },
-    "latestVersion": {
-      "major": 1,
-      "minor": 10,
-      "patch": 3
-    },
+		"stableVersion": {
+			"major": 1,
+			"minor": 0,
+			"patch": 2
+		},
+		"latestVersion": {
+			"major": 1,
+			"minor": 3,
+			"patch": 3
+		},
     "feeBannerTokenIds": [
       "tron"
     ]

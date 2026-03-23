@@ -11,12 +11,12 @@
 		"rateAppReminderInterval": 20,
 		"stableVersion": {
 			"major": 1,
-			"minor": 9,
-			"patch": 7
+			"minor": 0,
+			"patch": 2
 		},
 		"latestVersion": {
 			"major": 1,
-			"minor": 10,
+			"minor": 3,
 			"patch": 3
 		},
 		"feeBannerTokenIds": [
