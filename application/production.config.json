@@ -27,6 +27,7 @@
 	},
 	"features": {
 		"platforms": {
+            "geoContextCacheTtl":3600,
 		  "ios": {
 			"buysell": {
 			  "enabled": true,
@@ -47,7 +48,21 @@
 			  "unallowedCountries": []
 			}
 		  }
-		}
+		},
+        "forward": {
+              "directBroadcast": {
+                "enabled": true,
+                "networks": ["ton", "avalanche", "arbitrum", "optimism"]
+              },
+              "gasless": {
+                "enabled": true,
+                "networks": ["bsc", "solana","polygon", "xrp","ethereum", "tron", "bitcoin","base"]
+              },
+              "gaslessV1": {
+                "enabled": true,
+                "networks": []
+              }
+            }
 	},
 	"feature": {
 		"enableGaslessTransfer": true,
