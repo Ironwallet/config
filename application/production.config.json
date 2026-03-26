@@ -1,435 +1,478 @@
 {
-	"application": {
-		"androidPackage": "com.wallet.crypto.btc.eth",
-		"appStoreId": "6451146325",
-		"turnOnBuyOnIos": true,
-		"turnOnDAppsOnIos": false,
-		"turnOnDAppsOnAndroid": false,
-		"enableSwap": true,
-		"rateAppReminderInterval": 2592000,
-		"stableVersion": {
-			"major": 1,
-			"minor": 0,
-			"patch": 2
-		},
-		"latestVersion": {
-			"major": 1,
-			"minor": 3,
-			"patch": 3
-		},
-		"feeBannerTokenIds": [
-			"tron"
-		]
-	},
-	"nfc": {
-		"exportDeeplink": false,
-		"exportLock": false
-	},
-	"features": {
-		"platforms": {
-		  "ios": {
-			"buysell": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			},
-			"crossChainSwap": {
-			  "enabled": true,
-			  "unallowedCountries":["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA","GBR"] 
-			}
-		  },
-		"android": {
-			"buysell": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			},
-			"crossChainSwap": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			}
-		  }
-		}
-	},
-	"feature": {
-		"enableGaslessTransfer": true,
-		"enableGaslessExchange": false,
-		"gaslessOpts": {
-			"ethereum": {
-				"enableGaslessTransfer": false,
-				"enableGaslessExchange": false
-			},
-			"tron": {
-				"enableGaslessTransfer": true,
-				"enableGaslessExchange": false
-			},
-			"bsc": {
-				"enableGaslessTransfer": false,
-				"enableGaslessExchange": false
-			},
-			"polygon": {
-				"enableGaslessTransfer": false,
-				"enableGaslessExchange": false
-			},
-			"avalanche": {
-				"enableGaslessTransfer": false,
-				"enableGaslessExchange": false
-			}
-		},
-		"stableTokens": {
-			"ethereum": [
-				{
-					"externalId": "weth",
-					"address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					"name": "Wrapped ETH",
-					"symbol": "WETH",
-					"decimals": 18,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": false,
-					"status": "active"
-				},
-				{
-					"externalId": "usd-coin",
-					"address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					"name": "USD Coin",
-					"symbol": "USDC",
-					"decimals": 6,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": true,
-					"status": "active"
-				},
-				{
-					"externalId": "tether",
-					"address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-					"name": "Tether USD",
-					"symbol": "USDT",
-					"decimals": 6,
-					"useResetForApprove": true,
-					"useIncreaseAllowance": false,
-					"status": "active"
-				},
-				{
-					"externalId": "dai",
-					"address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					"name": "Dai Stablecoin",
-					"symbol": "DAI",
-					"decimals": 18,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": false,
-					"status": "active"
-				}
-			],
-			"tron": [
-				{
-					"externalId": "wrapped-tron",
-					"address": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR",
-					"name": "Wrapped TRX",
-					"symbol": "WTRX",
-					"decimals": 6,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": false,
-					"status": "active"
-				},
-				{
-					"externalId": "tether",
-					"address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
-					"name": "Tether USD",
-					"symbol": "USDT",
-					"decimals": 6,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": true,
-					"status": "active"
-				},
-				{
-					"externalId": "usdd",
-					"address": "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn",
-					"name": "Decentralized USD",
-					"symbol": "USDD",
-					"decimals": 18,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": false,
-					"status": "active"
-				},
-				{
-					"externalId": "usd-coin",
-					"address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
-					"name": "USD Coin",
-					"symbol": "USDC",
-					"decimals": 6,
-					"useResetForApprove": false,
-					"useIncreaseAllowance": true,
-					"status": "active"
-				}
-			]
-		},
-		"exchange": {
-			"useAutoDetection": true,
-			"enableExchange": true,
-			"enableCrossNetExchange": false,
-			"addresses": {
-				"0xdef1c0ded9bec7f1a1670819833240f027b25eff": {
-					"type": "exchange",
-					"chains": [
-						"1",
-						"56",
-						"137",
-						"43114",
-						"42220",
-						"42161"
-					],
-					"note": "0x"
-				},
-				"0xf91bb752490473b8342a3e964e855b9f9a2a668e": {
-					"type": "exchange",
-					"chains": [
-						"5"
-					],
-					"note": "0x"
-				},
-				"0xf471d32cb40837bf24529fcf17418fc1a4807626": {
-					"type": "exchange",
-					"chains": [
-						"80001"
-					],
-					"note": "0x"
-				},
-				"0xdef189deaef76e379df891899eb5a00a94cbc250": {
-					"type": "exchange",
-					"chains": [
-						"250"
-					],
-					"note": "0x"
-				},
-				"0xdef1abe32c034e558cdd535791643c58a13acc10": {
-					"type": "exchange",
-					"chains": [
-						"10"
-					],
-					"note": "0x"
-				},
-				"0x22f9dcf4647084d6c31b2765f6910cd85c178c18": {
-					"type": "exchange",
-					"chains": [
-						"1"
-					],
-					"note": "0x"
-				},
-				"0xF15469C80a1965f5f90bE5651FCB6C6F3392B2a1": {
-					"type": "exchange",
-					"chains": [
-						"5"
-					],
-					"note": "0x"
-				},
-				"0xdb6f1920a889355780af7570773609bd8cb1f498": {
-					"type": "exchange",
-					"chains": [
-						"56",
-						"137",
-						"43114",
-						"42220",
-						"42161"
-					],
-					"note": "0x"
-				},
-				"0x64254Cf2F3AbD765BeE46f8445B76e2bB0aF5A2c": {
-					"type": "exchange",
-					"chains": [
-						"8001"
-					],
-					"note": "0x"
-				},
-				"0xb4d961671cadfed687e040b076eee29840c142e5": {
-					"type": "exchange",
-					"chains": [
-						"250"
-					],
-					"note": "0x"
-				},
-				"0xa3128d9b7cca7d5af29780a56abeec12b05a6740": {
-					"type": "exchange",
-					"chains": [
-						"10"
-					],
-					"note": "0x"
-				},
-				"0x8F66c4AE756BEbC49Ec8B81966DD8bba9f127549": {
-					"type": "crossExchange",
-					"chains": [
-						"43114"
-					],
-					"note": "thorchain router avalanche"
-				},
-				"0xD37BbE5744D730a1d98d8DC97c42F0Ca46aD7146": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain router ethereum"
-				},
-				"0xd31f7e39afECEc4855fecc51b693F9A0Cec49fd2": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain TSAggregatorGeneric ethereum"
-				},
-				"0x7C38b8B2efF28511ECc14a621e263857Fb5771d3": {
-					"type": "crossExchange",
-					"chains": [
-						"1",
-						"43114"
-					],
-					"note": "thorchain TSAggregatorUniswapV2 ethereum"
-				},
-				"0x1C0Ee4030f771a1BB8f72C86150730d063f6b3ff": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain TSAggregatorUniswapV3 500 ethereum"
-				},
-				"0x96ab925EFb957069507894CD941F40734f0288ad": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain TSAggregatorUniswapV3 3000 ethereum"
-				},
-				"0xE308B9562de7689B2d31C76a41649933F38ab761": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain TSAggregatorUniswapV3 10000 ethereum"
-				},
-				"0x3660dE6C56cFD31998397652941ECe42118375DA": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain TSAggregator2LegUniswapV2 USDC ethereum"
-				},
-				"0x0F2CD5dF82959e00BE7AfeeF8245900FC4414199": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorchain TSAggregator SUSHIswap ethereum"
-				},
-				"0x86904eb2b3c743400d03f929f2246efa80b91215": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap UniswapV2 aggegator ethereum"
-				},
-				"0xbf365e79aa44a2164da135100c57fdb6635ae870": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap Sushiswap aggegator ethereum"
-				},
-				"0xbd68cbe6c247e2c3a0e36b8f0e24964914f26ee8": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap UniswapV3 (0.01%) aggegator ethereum"
-				},
-				"0xe4ddca21881bac219af7f217703db0475d2a9f02": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap UniswapV3 (0.05%) aggegator ethereum"
-				},
-				"0x11733abf0cdb43298f7e949c930188451a9a9ef2": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap UniswapV3 (0.3%) aggegator ethereum"
-				},
-				"0xb33874810e5395eb49d8bd7e912631db115d5a03": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap UniswapV3 (1%) aggegator ethereum"
-				},
-				"0x35CF22003c90126528fbe95b21bB3ADB2ca8c53D": {
-					"type": "crossExchange",
-					"chains": [
-						"1"
-					],
-					"note": "thorswap PancakeSwap aggegator ethereum"
-				},
-				"0x942c6dA485FD6cEf255853ef83a149d43A73F18a": {
-					"type": "crossExchange",
-					"chains": [
-						"43114"
-					],
-					"note": "thorswap Pangolin aggegator avalanche"
-				},
-				"0x3b7DbdD635B99cEa39D3d95Dbd0217F05e55B212": {
-					"type": "crossExchange",
-					"chains": [
-						"43114"
-					],
-					"note": "thorswap TraderJoe aggegator avalanche"
-				},
-				"0x5505BE604dFA8A1ad402A71f8A357fba47F9bf5a": {
-					"type": "crossExchange",
-					"chains": [
-						"43114"
-					],
-					"note": "thorswap Woofi aggegator avalanche"
-				},
-				"0x30912B38618D3D37De3191A4FFE982C65a9aEC2E": {
-					"type": "crossExchange",
-					"chains": [
-						"56"
-					],
-					"note": "thorswap PancakeSwap aggegator bsc"
-				},
-				"0xB6fA6f1DcD686F4A573Fd243a6FABb4ba36Ba98c": {
-					"type": "crossExchange",
-					"chains": [
-						"56"
-					],
-					"note": "thorswap Generic aggegator bsc"
-				},
-				"TEAkWaP4dKzD3DXs4TEzRdPnBA2zautG9R": {
-					"type": "exchange",
-					"chains": [
-						"5"
-					],
-					"note": "sunswap testnet"
-				},
-				"TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax": {
-					"type": "exchange",
-					"chains": [
-						"1"
-					],
-					"note": "sunswap mainnet"
-				}
-			}
-		},
-		"electrum": [
-			"ssl://btc.reichster.de:50002",
-			"ssl://electrum.blockstream.info:50002",
-			"ssl://fakenews.fiatfaucet.com:50002",
-			"ssl://fulcrum.sethforprivacy.com:50002",
-			"ssl://blackie.c3-soft.com:57002",
-			"ssl://fulcrum2.not.fyi:51002",
-			"ssl://blockstream.info:700",
-			"ssl://btc.electroncash.dk:60002",
-			"ssl://electrum.coinucopia.io:50002",
-			"ssl://bitexplorer.org:50002",
-			"ssl://5.189.171.159:50002",
-			"ssl://fulcrum1.getsrt.net:50002",
-			"ssl://bitcoin.aranguren.org:50002",
-			"ssl://electrum.emzy.de:50002"
-		]
-	}
+  "application": {
+    "androidPackage": "com.wallet.crypto.btc.eth",
+    "appStoreId": "6451146325",
+    "turnOnBuyOnIos": true,
+    "turnOnDAppsOnIos": false,
+    "turnOnDAppsOnAndroid": false,
+    "enableSwap": true,
+    "rateAppReminderInterval": 2592000,
+    "stableVersion": {
+      "major": 1,
+      "minor": 0,
+      "patch": 2
+    },
+    "latestVersion": {
+      "major": 1,
+      "minor": 3,
+      "patch": 3
+    },
+    "feeBannerTokenIds": [
+      "tron"
+    ]
+  },
+  "nfc": {
+    "exportDeeplink": false,
+    "exportLock": false
+  },
+  "features": {
+    "platforms": {
+      "geoContextCacheTtl": 3600,
+      "ios": {
+        "buysell": {
+          "enabled": true,
+          "unallowedCountries": []
+        },
+        "crossChainSwap": {
+          "enabled": true,
+          "unallowedCountries": [
+            "AFG",
+            "DZA",
+            "BOL",
+            "EGY",
+            "MAR",
+            "NPL",
+            "QAT",
+            "SAU",
+            "USA",
+            "GBR"
+          ]
+        }
+      },
+      "android": {
+        "buysell": {
+          "enabled": true,
+          "unallowedCountries": []
+        },
+        "crossChainSwap": {
+          "enabled": true,
+          "unallowedCountries": []
+        }
+      }
+    },
+    "forward": {
+      "directBroadcast": {
+        "description": "Прямая отправка в RPC ноду (Legacy)",
+        "enabled": true,
+        "networks": [
+          "ton",
+          "avalanche",
+          "arbitrum",
+          "optimism"
+        ]
+      },
+      "gasless": {
+        "description": "Legacy",
+        "enabled": true,
+        "networks": [
+          "bsc",
+          "solana",
+          "polygon",
+          "xrp",
+          "ethereum",
+          "tron",
+          "bitcoin",
+          "base"
+        ]
+      },
+      "gaslessV1": {
+        "description": "Gasless V1 (рекомендуемая)",
+        "enabled": true,
+        "networks": []
+      }
+    }
+  },
+  "feature": {
+    "enableGaslessTransfer": true,
+    "enableGaslessExchange": false,
+    "gaslessOpts": {
+      "ethereum": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "tron": {
+        "enableGaslessTransfer": true,
+        "enableGaslessExchange": false
+      },
+      "bsc": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "polygon": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      },
+      "avalanche": {
+        "enableGaslessTransfer": false,
+        "enableGaslessExchange": false
+      }
+    },
+    "stableTokens": {
+      "ethereum": [
+        {
+          "externalId": "weth",
+          "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "name": "Wrapped ETH",
+          "symbol": "WETH",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "usd-coin",
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "tether",
+          "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "decimals": 6,
+          "useResetForApprove": true,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "dai",
+          "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        }
+      ],
+      "tron": [
+        {
+          "externalId": "wrapped-tron",
+          "address": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR",
+          "name": "Wrapped TRX",
+          "symbol": "WTRX",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "tether",
+          "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        },
+        {
+          "externalId": "usdd",
+          "address": "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn",
+          "name": "Decentralized USD",
+          "symbol": "USDD",
+          "decimals": 18,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": false,
+          "status": "active"
+        },
+        {
+          "externalId": "usd-coin",
+          "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "useResetForApprove": false,
+          "useIncreaseAllowance": true,
+          "status": "active"
+        }
+      ]
+    },
+    "exchange": {
+      "useAutoDetection": true,
+      "enableExchange": true,
+      "enableCrossNetExchange": false,
+      "addresses": {
+        "0xdef1c0ded9bec7f1a1670819833240f027b25eff": {
+          "type": "exchange",
+          "chains": [
+            "1",
+            "56",
+            "137",
+            "43114",
+            "42220",
+            "42161"
+          ],
+          "note": "0x"
+        },
+        "0xf91bb752490473b8342a3e964e855b9f9a2a668e": {
+          "type": "exchange",
+          "chains": [
+            "5"
+          ],
+          "note": "0x"
+        },
+        "0xf471d32cb40837bf24529fcf17418fc1a4807626": {
+          "type": "exchange",
+          "chains": [
+            "80001"
+          ],
+          "note": "0x"
+        },
+        "0xdef189deaef76e379df891899eb5a00a94cbc250": {
+          "type": "exchange",
+          "chains": [
+            "250"
+          ],
+          "note": "0x"
+        },
+        "0xdef1abe32c034e558cdd535791643c58a13acc10": {
+          "type": "exchange",
+          "chains": [
+            "10"
+          ],
+          "note": "0x"
+        },
+        "0x22f9dcf4647084d6c31b2765f6910cd85c178c18": {
+          "type": "exchange",
+          "chains": [
+            "1"
+          ],
+          "note": "0x"
+        },
+        "0xF15469C80a1965f5f90bE5651FCB6C6F3392B2a1": {
+          "type": "exchange",
+          "chains": [
+            "5"
+          ],
+          "note": "0x"
+        },
+        "0xdb6f1920a889355780af7570773609bd8cb1f498": {
+          "type": "exchange",
+          "chains": [
+            "56",
+            "137",
+            "43114",
+            "42220",
+            "42161"
+          ],
+          "note": "0x"
+        },
+        "0x64254Cf2F3AbD765BeE46f8445B76e2bB0aF5A2c": {
+          "type": "exchange",
+          "chains": [
+            "8001"
+          ],
+          "note": "0x"
+        },
+        "0xb4d961671cadfed687e040b076eee29840c142e5": {
+          "type": "exchange",
+          "chains": [
+            "250"
+          ],
+          "note": "0x"
+        },
+        "0xa3128d9b7cca7d5af29780a56abeec12b05a6740": {
+          "type": "exchange",
+          "chains": [
+            "10"
+          ],
+          "note": "0x"
+        },
+        "0x8F66c4AE756BEbC49Ec8B81966DD8bba9f127549": {
+          "type": "crossExchange",
+          "chains": [
+            "43114"
+          ],
+          "note": "thorchain router avalanche"
+        },
+        "0xD37BbE5744D730a1d98d8DC97c42F0Ca46aD7146": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain router ethereum"
+        },
+        "0xd31f7e39afECEc4855fecc51b693F9A0Cec49fd2": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain TSAggregatorGeneric ethereum"
+        },
+        "0x7C38b8B2efF28511ECc14a621e263857Fb5771d3": {
+          "type": "crossExchange",
+          "chains": [
+            "1",
+            "43114"
+          ],
+          "note": "thorchain TSAggregatorUniswapV2 ethereum"
+        },
+        "0x1C0Ee4030f771a1BB8f72C86150730d063f6b3ff": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain TSAggregatorUniswapV3 500 ethereum"
+        },
+        "0x96ab925EFb957069507894CD941F40734f0288ad": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain TSAggregatorUniswapV3 3000 ethereum"
+        },
+        "0xE308B9562de7689B2d31C76a41649933F38ab761": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain TSAggregatorUniswapV3 10000 ethereum"
+        },
+        "0x3660dE6C56cFD31998397652941ECe42118375DA": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain TSAggregator2LegUniswapV2 USDC ethereum"
+        },
+        "0x0F2CD5dF82959e00BE7AfeeF8245900FC4414199": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorchain TSAggregator SUSHIswap ethereum"
+        },
+        "0x86904eb2b3c743400d03f929f2246efa80b91215": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap UniswapV2 aggegator ethereum"
+        },
+        "0xbf365e79aa44a2164da135100c57fdb6635ae870": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap Sushiswap aggegator ethereum"
+        },
+        "0xbd68cbe6c247e2c3a0e36b8f0e24964914f26ee8": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap UniswapV3 (0.01%) aggegator ethereum"
+        },
+        "0xe4ddca21881bac219af7f217703db0475d2a9f02": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap UniswapV3 (0.05%) aggegator ethereum"
+        },
+        "0x11733abf0cdb43298f7e949c930188451a9a9ef2": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap UniswapV3 (0.3%) aggegator ethereum"
+        },
+        "0xb33874810e5395eb49d8bd7e912631db115d5a03": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap UniswapV3 (1%) aggegator ethereum"
+        },
+        "0x35CF22003c90126528fbe95b21bB3ADB2ca8c53D": {
+          "type": "crossExchange",
+          "chains": [
+            "1"
+          ],
+          "note": "thorswap PancakeSwap aggegator ethereum"
+        },
+        "0x942c6dA485FD6cEf255853ef83a149d43A73F18a": {
+          "type": "crossExchange",
+          "chains": [
+            "43114"
+          ],
+          "note": "thorswap Pangolin aggegator avalanche"
+        },
+        "0x3b7DbdD635B99cEa39D3d95Dbd0217F05e55B212": {
+          "type": "crossExchange",
+          "chains": [
+            "43114"
+          ],
+          "note": "thorswap TraderJoe aggegator avalanche"
+        },
+        "0x5505BE604dFA8A1ad402A71f8A357fba47F9bf5a": {
+          "type": "crossExchange",
+          "chains": [
+            "43114"
+          ],
+          "note": "thorswap Woofi aggegator avalanche"
+        },
+        "0x30912B38618D3D37De3191A4FFE982C65a9aEC2E": {
+          "type": "crossExchange",
+          "chains": [
+            "56"
+          ],
+          "note": "thorswap PancakeSwap aggegator bsc"
+        },
+        "0xB6fA6f1DcD686F4A573Fd243a6FABb4ba36Ba98c": {
+          "type": "crossExchange",
+          "chains": [
+            "56"
+          ],
+          "note": "thorswap Generic aggegator bsc"
+        },
+        "TEAkWaP4dKzD3DXs4TEzRdPnBA2zautG9R": {
+          "type": "exchange",
+          "chains": [
+            "5"
+          ],
+          "note": "sunswap testnet"
+        },
+        "TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax": {
+          "type": "exchange",
+          "chains": [
+            "1"
+          ],
+          "note": "sunswap mainnet"
+        }
+      }
+    },
+    "electrum": [
+      "ssl://btc.reichster.de:50002",
+      "ssl://electrum.blockstream.info:50002",
+      "ssl://fakenews.fiatfaucet.com:50002",
+      "ssl://fulcrum.sethforprivacy.com:50002",
+      "ssl://blackie.c3-soft.com:57002",
+      "ssl://fulcrum2.not.fyi:51002",
+      "ssl://blockstream.info:700",
+      "ssl://btc.electroncash.dk:60002",
+      "ssl://electrum.coinucopia.io:50002",
+      "ssl://bitexplorer.org:50002",
+      "ssl://5.189.171.159:50002",
+      "ssl://fulcrum1.getsrt.net:50002",
+      "ssl://bitcoin.aranguren.org:50002",
+      "ssl://electrum.emzy.de:50002"
+    ]
+  }
 }
