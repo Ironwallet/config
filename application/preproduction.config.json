@@ -33,7 +33,7 @@
       "ios": {
         "buysell": {
           "enabled": true,
-          "unallowedCountries": []
+          "unallowedCountries": ["GBR"]
         },
         "crossChainSwap": {
           "enabled": true,
