@@ -25,44 +25,45 @@
 		"exportDeeplink": false,
 		"exportLock": false
 	},
-	"features": {
+	"features": {		
 		"platforms": {
-            "geoContextCacheTtl":3600,
-		  "ios": {
-			"buysell": {
-			  "enabled": true,
-			  "unallowedCountries": []
+			"geoContextCacheTtl": 3600,
+			"ios": {
+				"buysell": {
+					"enabled": true,
+					"unallowedCountries": []
+				},
+				"crossChainSwap": {
+					"enabled": true,
+					"unallowedCountries": ["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA","GBR"]
+				}
 			},
-			"crossChainSwap": {
-			  "enabled": true,
-			  "unallowedCountries":["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA","GBR"] 
+			"android": {
+				"buysell": {
+					"enabled": true,
+					"unallowedCountries": []
+				},
+				"crossChainSwap": {
+					"enabled": true,
+					"unallowedCountries": []
+				}
 			}
-		  },
-		"android": {
-			"buysell": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			},
-			"crossChainSwap": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			}
-		  }
 		},
-        "forward": {
-              "directBroadcast": {
-                "enabled": true,
-                "networks": ["ton", "avalanche", "arbitrum", "optimism"]
-              },
-              "gasless": {
-                "enabled": true,
-                "networks": ["bsc", "solana","polygon", "xrp","ethereum", "tron", "bitcoin","base"]
-              },
-              "gaslessV1": {
-                "enabled": true,
-                "networks": []
-              }
-            }
+		"forward": {
+			"directBroadcast": {
+				"enabled": true,
+				"networks": ["ton", "avalanche", "arbitrum", "optimism"]
+			},
+			"gasless": {
+				"enabled": true,
+				"networks": ["bsc", "solana","polygon", "xrp","ethereum", "tron", "bitcoin","base"]
+			},
+			"gaslessV1": {
+				"enabled": true,
+				"networks": []
+			}
+		}
+		
 	},
 	"feature": {
 		"enableGaslessTransfer": true,
