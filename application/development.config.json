@@ -54,15 +54,15 @@
         "forward": {
               "directBroadcast": {
                 "enabled": true,
-                "networks": ["ton", "avalanche", "arbitrum", "optimism"]
+                "networks": ["ton", "arbitrum"]
               },
               "gasless": {
                 "enabled": true,
-                "networks": ["bsc", "solana", "polygon", "xrp", "base"]
+                "networks": []
               },
               "gaslessV1": {
                 "enabled": true,
-                "networks": ["ethereum", "tron", "bitcoin"]
+                "networks": ["ethereum", "tron", "bitcoin", "bsc", "solana", "polygon", "xrp", "base", "avalanche", "optimism"]
               }
         }
 	  },
