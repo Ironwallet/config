@@ -25,9 +25,9 @@
 		"exportDeeplink": false,
 		"exportLock": false
 	},
-	"features": {
-		"geoContextCacheTtl": 3600,
+	"features": {		
 		"platforms": {
+			"geoContextCacheTtl": 3600,
 			"ios": {
 				"buysell": {
 					"enabled": true,
