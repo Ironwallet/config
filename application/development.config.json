@@ -29,43 +29,71 @@
 	},
 	"features": {
 		"platforms": {
-            "geoContextCacheTtl":3600,
-		  "ios": {
-			"buysell": {
-			  "enabled": true,
-			  "unallowedCountries": []
+			"geoContextCacheTtl": 3600,
+			"ios": {
+				"buysell": {
+					"enabled": true,
+					"unallowedCountries": [
+						"GBR"
+					]
+				},
+				"crossChainSwap": {
+					"enabled": true,
+					"swpEnabled": true,
+					"unallowedCountries": [
+						"AFG",
+						"DZA",
+						"BOL",
+						"EGY",
+						"MAR",
+						"NPL",
+						"QAT",
+						"SAU",
+						"GBR"
+					]
+				}
 			},
-			"crossChainSwap": {
-			  "enabled": true,
-			  "unallowedCountries":["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA","GBR"] 
+			"android": {
+				"buysell": {
+					"enabled": true,
+					"unallowedCountries": []
+				},
+				"crossChainSwap": {
+					"enabled": true,
+					"swpEnabled": true,
+					"unallowedCountries": []
+				}
 			}
-		  },
-		  "android": {
-			"buysell": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			},
-			"crossChainSwap": {
-			  "enabled": true,
-			  "unallowedCountries": []
-			}
-		  }
 		},
-        "forward": {
-              "directBroadcast": {
-                "enabled": true,
-                "networks": ["ton", "arbitrum"]
-              },
-              "gasless": {
-                "enabled": true,
-                "networks": []
-              },
-              "gaslessV1": {
-                "enabled": true,
-                "networks": ["ethereum", "tron", "bitcoin", "bsc", "solana", "polygon", "xrp", "base", "avalanche", "optimism"]
-              }
-        }
-	  },
+		"forward": {
+			"directBroadcast": {
+				"enabled": true,
+				"networks": [
+					"ton",
+					"arbitrum"
+				]
+			},
+			"gasless": {
+				"enabled": true,
+				"networks": []
+			},
+			"gaslessV1": {
+				"enabled": true,
+				"networks": [
+					"ethereum",
+					"tron",
+					"bitcoin",
+					"bsc",
+					"solana",
+					"polygon",
+					"xrp",
+					"base",
+					"avalanche",
+					"optimism"
+				]
+			}
+		}
+	},
 	"feature": {
 		"enableGaslessTransfer": true,
 		"enableGaslessExchange": true,

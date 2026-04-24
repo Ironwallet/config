@@ -31,11 +31,24 @@
 			"ios": {
 				"buysell": {
 					"enabled": true,
-					"unallowedCountries": []
+					"unallowedCountries": [
+						"GBR"
+					]
 				},
 				"crossChainSwap": {
 					"enabled": true,
-					"unallowedCountries": ["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA"]
+					"swpEnabled": true,
+					"unallowedCountries": [
+						"AFG",
+						"DZA",
+						"BOL",
+						"EGY",
+						"MAR",
+						"NPL",
+						"QAT",
+						"SAU",
+						"GBR"
+					]
 				}
 			},
 			"android": {
@@ -52,7 +65,10 @@
 		"forward": {
 			"directBroadcast": {
 				"enabled": true,
-				"networks": ["ton", "arbitrum"]
+				"networks": [
+					"ton",
+					"arbitrum"
+				]
 			},
 			"gasless": {
 				"enabled": true,
@@ -60,7 +76,18 @@
 			},
 			"gaslessV1": {
 				"enabled": true,
-				"networks": ["ethereum", "polygon", "base", "tron", "bitcoin", "bsc", "solana", "xrp", "avalanche", "optimism"]
+				"networks": [
+					"ethereum",
+					"polygon",
+					"base",
+					"tron",
+					"bitcoin",
+					"bsc",
+					"solana",
+					"xrp",
+					"avalanche",
+					"optimism"
+				]
 			}
 		}
 	},

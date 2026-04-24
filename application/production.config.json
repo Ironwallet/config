@@ -25,17 +25,30 @@
 		"exportDeeplink": false,
 		"exportLock": false
 	},
-	"features": {		
+	"features": {
 		"platforms": {
 			"geoContextCacheTtl": 3600,
 			"ios": {
 				"buysell": {
 					"enabled": true,
-					"unallowedCountries": []
+					"unallowedCountries": [
+						"GBR"
+					]
 				},
 				"crossChainSwap": {
 					"enabled": true,
-					"unallowedCountries": ["AFG","DZA","BOL","EGY","MAR","NPL","QAT","SAU","USA","GBR"]
+					"swpEnabled": true,
+					"unallowedCountries": [
+						"AFG",
+						"DZA",
+						"BOL",
+						"EGY",
+						"MAR",
+						"NPL",
+						"QAT",
+						"SAU",
+						"GBR"
+					]
 				}
 			},
 			"android": {
@@ -52,18 +65,31 @@
 		"forward": {
 			"directBroadcast": {
 				"enabled": true,
-				"networks": ["ton", "avalanche", "arbitrum", "optimism"]
+				"networks": [
+					"ton",
+					"avalanche",
+					"arbitrum",
+					"optimism"
+				]
 			},
 			"gasless": {
 				"enabled": true,
-				"networks": ["bsc", "solana","polygon", "xrp","ethereum", "tron", "bitcoin","base"]
+				"networks": [
+					"bsc",
+					"solana",
+					"polygon",
+					"xrp",
+					"ethereum",
+					"tron",
+					"bitcoin",
+					"base"
+				]
 			},
 			"gaslessV1": {
 				"enabled": true,
 				"networks": []
 			}
 		}
-		
 	},
 	"feature": {
 		"enableGaslessTransfer": true,
