@@ -36,7 +36,7 @@
 		  "crossChainSwap": {
 			"enabled": true,
 			"swpEnabled": true,
-			"unallowedCountries": ["AFG", "DZA", "BOL", "EGY", "MAR", "NPL", "QAT", "SAU", "USA"]
+			"unallowedCountries": ["AFG", "DZA", "BOL", "EGY", "MAR", "NPL", "QAT", "SAU", "USA", "GBR"]
 		  }
 		},
 		"android": {
