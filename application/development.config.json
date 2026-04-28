@@ -6,7 +6,7 @@
 		"turnOnDAppsOnIos": true,
 		"turnOnDAppsOnAndroid": true,
 		"enableIwbTransactionHistory": true,
-		"enableIwbBalances": true,
+		"enableIwbBalances": false,
 		"enableSwap": true,
 		"rateAppReminderInterval": 20,
 		"stableVersion": {
