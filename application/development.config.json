@@ -50,6 +50,13 @@
 						"QAT",
 						"SAU",
 						"GBR"
+					],
+					"swpCountries": [],
+					"swapCountries": [
+						"TUR",
+						"ISR",
+						"RUS",
+						"KHM"
 					]
 				}
 			},
@@ -61,7 +68,9 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": []
+					"unallowedCountries": [],
+					"swpCountries": [],
+					"swapCountries": []
 				}
 			}
 		},
