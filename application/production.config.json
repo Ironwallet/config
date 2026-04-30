@@ -65,6 +65,7 @@
 				},
 				"crossChainSwap": {
 					"enabled": true,
+					"swpEnabled": false,
 					"unallowedCountries": [],
 					"swpCountries": [],
 					"swapCountries": []
