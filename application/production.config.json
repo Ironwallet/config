@@ -38,17 +38,7 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": [
-						"AFG",
-						"DZA",
-						"BOL",
-						"EGY",
-						"MAR",
-						"NPL",
-						"QAT",
-						"SAU",
-						"GBR"
-					],
+					"unallowedCountries": [],
 					"swpCountries": [],
 					"swapCountries": [
 						"AGO",
@@ -177,7 +167,15 @@
 						"VUT",
 						"ZAF",
 						"ZMB",
-						"ZWE"
+						"ZWE",
+						"AFG",
+						"DZA",
+						"BOL",
+						"EGY",
+						"MAR",
+						"NPL",
+						"QAT",
+						"SAU"
 					]
 				}
 			},
