@@ -203,7 +203,9 @@
 			},
 			"gasless": {
 				"enabled": true,
-				"networks": []
+				"networks": [
+					"xrp"
+				]
 			},
 			"gaslessV1": {
 				"enabled": true,
@@ -215,7 +217,6 @@
 					"bitcoin",
 					"bsc",
 					"solana",
-					"xrp",
 					"avalanche",
 					"optimism"
 				]
