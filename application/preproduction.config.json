@@ -48,7 +48,13 @@
 						"QAT",
 						"SAU"
 					],
-					"swpCountries": [],
+					"swpCountries": [
+						"GBR",
+						"TUR",
+						"ISR",
+						"RUS",
+						"KHM"
+					],
 					"swapCountries": [
 						"AGO",
 						"AIA",
