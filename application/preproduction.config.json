@@ -186,9 +186,15 @@
 				},
 				"crossChainSwap": {
 					"enabled": true,
-					"swpEnabled": false,
+					"swpEnabled": true,
 					"unallowedCountries": [],
-					"swpCountries": [],
+					"swpCountries": [
+						"GBR",
+						"TUR",
+						"ISR",
+						"RUS",
+						"KHM"
+					],
 					"swapCountries": []
 				}
 			}
