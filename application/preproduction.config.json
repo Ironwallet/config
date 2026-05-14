@@ -188,7 +188,13 @@
 					"enabled": true,
 					"swpEnabled": false,
 					"unallowedCountries": [],
-					"swpCountries": [],
+					"swpCountries": [
+						"GBR",
+						"TUR",
+						"ISR",
+						"RUS",
+						"KHM"
+					],
 					"swapCountries": []
 				}
 			}
@@ -203,7 +209,9 @@
 			},
 			"gasless": {
 				"enabled": true,
-				"networks": []
+				"networks": [
+					"xrp"
+				]
 			},
 			"gaslessV1": {
 				"enabled": true,
@@ -215,7 +223,6 @@
 					"bitcoin",
 					"bsc",
 					"solana",
-					"xrp",
 					"avalanche",
 					"optimism"
 				]

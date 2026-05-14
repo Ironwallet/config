@@ -188,7 +188,9 @@
 					"enabled": true,
 					"swpEnabled": false,
 					"unallowedCountries": [],
-					"swpCountries": [],
+					"swpCountries": [
+						"GBR"
+					],
 					"swapCountries": []
 				}
 			}
