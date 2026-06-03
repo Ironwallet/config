@@ -200,9 +200,7 @@
 				"enabled": true,
 				"networks": [
 					"ton",
-					"avalanche",
-					"arbitrum",
-					"optimism"
+					"arbitrum"
 				]
 			},
 			"gasless": {
@@ -211,7 +209,6 @@
 					"bsc",
 					"solana",
 					"polygon",
-					"xrp",
 					"ethereum",
 					"tron",
 					"bitcoin",
@@ -220,7 +217,11 @@
 			},
 			"gaslessV1": {
 				"enabled": true,
-				"networks": []
+				"networks": [
+					"xrp",
+					"avalanche",
+					"optimism"
+				]
 			}
 		}
 	},
