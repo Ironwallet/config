@@ -38,16 +38,7 @@
 				"crossChainSwap": {
 					"enabled": true,
 					"swpEnabled": true,
-					"unallowedCountries": [
-						"AFG",
-						"DZA",
-						"BOL",
-						"EGY",
-						"MAR",
-						"NPL",
-						"QAT",
-						"SAU"
-					],
+					"unallowedCountries": [],
 					"swpCountries": [],
 					"swapCountries": [
 						"AGO",
@@ -186,16 +177,16 @@
 				},
 				"crossChainSwap": {
 					"enabled": true,
-					"swpEnabled": false,
+					"swpEnabled": true,
 					"unallowedCountries": [],
-					"swpCountries": [
+					"swpCountries": [],
+					"swapCountries": [
 						"GBR",
 						"TUR",
 						"ISR",
 						"RUS",
 						"KHM"
-					],
-					"swapCountries": []
+					]
 				}
 			}
 		},
@@ -208,21 +199,20 @@
 				]
 			},
 			"gasless": {
-				"enabled": true,
-				"networks": [
-					"xrp"
-				]
+				"enabled": false,
+				"networks": []
 			},
 			"gaslessV1": {
 				"enabled": true,
 				"networks": [
 					"ethereum",
-					"polygon",
-					"base",
 					"tron",
 					"bitcoin",
 					"bsc",
 					"solana",
+					"polygon",
+					"xrp",
+					"base",
 					"avalanche",
 					"optimism"
 				]
