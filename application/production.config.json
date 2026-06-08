@@ -206,13 +206,10 @@
 			"gasless": {
 				"enabled": true,
 				"networks": [
-					"bsc",
 					"solana",
-					"polygon",
 					"ethereum",
 					"tron",
-					"bitcoin",
-					"base"
+					"bitcoin"
 				]
 			},
 			"gaslessV1": {
@@ -220,7 +217,10 @@
 				"networks": [
 					"xrp",
 					"avalanche",
-					"optimism"
+					"optimism",
+					"bsc",
+					"polygon",
+					"base"
 				]
 			}
 		}
