@@ -204,23 +204,22 @@
 				]
 			},
 			"gasless": {
-				"enabled": true,
-				"networks": [
-					"ethereum",
-					"tron"
-				]
+				"enabled": false,
+				"networks": []
 			},
 			"gaslessV1": {
 				"enabled": true,
 				"networks": [
-					"xrp",
-					"avalanche",
-					"optimism",
-					"bsc",
-					"polygon",
-					"base",
+					"ethereum",
+					"tron",
 					"bitcoin",
-					"solana"
+					"bsc",
+					"solana",
+					"polygon",
+					"xrp",
+					"base",
+					"avalanche",
+					"optimism"
 				]
 			}
 		}
