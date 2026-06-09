@@ -180,13 +180,7 @@
 					"swpEnabled": true,
 					"unallowedCountries": [],
 					"swpCountries": [],
-					"swapCountries": [
-						"GBR",
-						"TUR",
-						"ISR",
-						"RUS",
-						"KHM"
-					]
+					"swapCountries": []
 				}
 			}
 		},
