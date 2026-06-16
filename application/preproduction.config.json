@@ -69,18 +69,18 @@
 			"gaslessV1": {
 				"enabled": true,
 				"networks": [
-					"ethereum",
-					"tron",
-					"bitcoin",
-					"bsc",
-					"solana",
-					"polygon",
-					"xrp",
-					"base",
+					"arbitrum",
 					"avalanche",
+					"base",
+					"bsc",
+					"bitcoin",
+					"ethereum",
 					"optimism",
+					"polygon",
+					"solana",
 					"ton",
-					"arbitrum"
+					"tron",
+					"xrp"
 				]
 			}
 		}
