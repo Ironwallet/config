@@ -62,7 +62,7 @@
 				"enabled": true,
 				"networks": [
 					"arbitrum",
-					"tron"
+					"ton"
 				]
 			},
 			"gasless": {
@@ -80,7 +80,7 @@
 					"optimism",
 					"polygon",
 					"solana",
-					"ton",
+					"tron",
 					"xrp"
 				]
 			}
