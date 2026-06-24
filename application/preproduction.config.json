@@ -9,13 +9,13 @@
 		"rateAppReminderInterval": 1800,
 		"stableVersion": {
 			"major": 1,
-			"minor": 0,
-			"patch": 2
+			"minor": 9,
+			"patch": 7
 		},
 		"latestVersion": {
 			"major": 1,
-			"minor": 3,
-			"patch": 3
+			"minor": 10,
+			"patch": 7
 		},
 		"feeBannerTokenIds": [
 			"tron"
