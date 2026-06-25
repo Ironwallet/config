@@ -11,13 +11,13 @@
 		"rateAppReminderInterval": 20,
 		"stableVersion": {
 			"major": 1,
-			"minor": 0,
-			"patch": 2
+			"minor": 9,
+			"patch": 7
 		},
 		"latestVersion": {
 			"major": 1,
-			"minor": 3,
-			"patch": 3
+			"minor": 10,
+			"patch": 7
 		},
 		"feeBannerTokenIds": [
 			"tron"
@@ -61,10 +61,8 @@
 		},
 		"forward": {
 			"directBroadcast": {
-				"enabled": true,
-				"networks": [
-					"arbitrum"
-				]
+				"enabled": false,
+				"networks": []
 			},
 			"gasless": {
 				"enabled": false,
@@ -73,20 +71,22 @@
 			"gaslessV1": {
 				"enabled": true,
 				"networks": [
-					"ton",
-					"ethereum",
-					"tron",
-					"bitcoin",
-					"bsc",
-					"solana",
-					"polygon",
-					"xrp",
-					"base",
+					"arbitrum",
 					"avalanche",
-					"optimism"
+					"base",
+					"bsc",
+					"bitcoin",
+					"ethereum",
+					"optimism",
+					"polygon",
+					"solana",
+					"ton",
+					"tron",
+					"xrp"
 				]
 			}
-		}
+		},
+		"history": {}
 	},
 	"feature": {
 		"enableGaslessTransfer": true,
