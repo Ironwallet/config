@@ -83,6 +83,30 @@
 					"xrp"
 				]
 			}
+		},
+		"history": {
+			"proxy": {
+				"enabled": true,
+				"networks": [
+					"ethereum",
+					"bitcoin",
+					"xrp"
+				]
+			},
+			"direct": {
+				"enabled": true,
+				"networks": [
+					"bsc",
+					"tron",
+					"avalanche",
+					"polygon",
+					"solana",
+					"arbitrum",
+					"ton",
+					"optimism",
+					"base"
+				]
+			}
 		}
 	},
 	"feature": {
