@@ -5,6 +5,7 @@
 		"turnOnBuyOnIos": false,
 		"turnOnDAppsOnIos": true,
 		"turnOnDAppsOnAndroid": true,
+		"enableIwbTransactionHistory": true,
 		"enableSwap": true,
 		"rateAppReminderInterval": 1800,
 		"stableVersion": {
@@ -81,6 +82,30 @@
 					"ton",
 					"tron",
 					"xrp"
+				]
+			}
+		},
+		"history": {
+			"proxy": {
+				"enabled": true,
+				"networks": [
+					"ethereum",
+					"bitcoin",
+					"xrp"
+				]
+			},
+			"direct": {
+				"enabled": true,
+				"networks": [
+					"bsc",
+					"tron",
+					"avalanche",
+					"polygon",
+					"solana",
+					"arbitrum",
+					"ton",
+					"optimism",
+					"base"
 				]
 			}
 		}
