@@ -90,12 +90,6 @@
 				"networks": [
 					"ethereum",
 					"bitcoin",
-					"xrp"
-				]
-			},
-			"direct": {
-				"enabled": true,
-				"networks": [
 					"bsc",
 					"tron",
 					"avalanche",
@@ -104,8 +98,13 @@
 					"arbitrum",
 					"ton",
 					"optimism",
+					"xrp",
 					"base"
 				]
+			},
+			"direct": {
+				"enabled": false,
+				"networks": []
 			}
 		}
 	},
