@@ -19,7 +19,19 @@
 		},
 		"feeBannerTokenIds": [
 			"tron"
-		]
+		],
+		"marketing": {
+			"enableAdjustEvents": true,
+			"enableMixpanelEvents": true,
+			"enableFirebaseEvents": true,
+			"enableFacebookSdkEvents": false,
+			"enableIwRelay": false,
+			"enableClientQualifiedWallet": true,
+			"enableServerQualifiedWallet": false,
+			"enableClientCompletedEvents": true,
+			"enableServerCompletedEvents": false,
+			"extendedProductAnalytics": true
+		}
 	},
 	"nfc": {
 		"exportDeeplink": false,
