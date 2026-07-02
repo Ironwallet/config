@@ -21,7 +21,19 @@
 		},
 		"feeBannerTokenIds": [
 			"tron"
-		]
+		],
+		"marketing": {
+			"enableAdjustEvents": true,
+			"enableMixpanelEvents": true,
+			"enableFirebaseEvents": true,
+			"enableFacebookSdkEvents": false,
+			"enableIwRelay": false,
+			"enableClientQualifiedWallet": true,
+			"enableServerQualifiedWallet": false,
+			"enableClientCompletedEvents": true,
+			"enableServerCompletedEvents": false,
+			"extendedProductAnalytics": true
+		}
 	},
 	"nfc": {
 		"exportDeeplink": false,
@@ -92,12 +104,6 @@
 				"networks": [
 					"ethereum",
 					"bitcoin",
-					"xrp"
-				]
-			},
-			"direct": {
-				"enabled": true,
-				"networks": [
 					"bsc",
 					"tron",
 					"avalanche",
@@ -106,8 +112,13 @@
 					"arbitrum",
 					"ton",
 					"optimism",
+					"xrp",
 					"base"
 				]
+			},
+			"direct": {
+				"enabled": false,
+				"networks": []
 			}
 		}
 	},
