@@ -98,6 +98,10 @@
 		},
 		"history": {
 			"proxy": {
+				"enabled": false,
+				"networks": []
+			},
+			"direct": {
 				"enabled": true,
 				"networks": [
 					"ethereum",
@@ -113,10 +117,6 @@
 					"xrp",
 					"base"
 				]
-			},
-			"direct": {
-				"enabled": false,
-				"networks": []
 			}
 		}
 	},
