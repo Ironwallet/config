@@ -45,6 +45,18 @@
 					"enabled": true,
 					"unallowedCountries": [
 						"GBR"
+					],
+					"supportedBuyProviders": [
+						"transak",
+						"gatefi",
+						"paybis",
+						"moonpay"
+					],
+					"supportedSellProviders": [
+						"transak",
+						"gatefi",
+						"paybis",
+						"moonpay"
 					]
 				},
 				"crossChainSwap": {
@@ -58,7 +70,19 @@
 			"android": {
 				"buysell": {
 					"enabled": true,
-					"unallowedCountries": []
+					"unallowedCountries": [],
+					"supportedBuyProviders": [
+						"transak",
+						"gatefi",
+						"paybis",
+						"moonpay"
+					],
+					"supportedSellProviders": [
+						"transak",
+						"gatefi",
+						"paybis",
+						"moonpay"
+					]
 				},
 				"crossChainSwap": {
 					"enabled": true,
@@ -90,7 +114,10 @@
 					"optimism",
 					"polygon",
 					"solana",
-					"ton",
+					{
+						"network": "ton",
+						"minAppVersion": "1.12.1"
+					},
 					"tron",
 					"xrp"
 				]
