@@ -19,7 +19,19 @@
 		},
 		"feeBannerTokenIds": [
 			"tron"
-		]
+		],
+		"marketing": {
+			"enableAdjustEvents": true,
+			"enableMixpanelEvents": true,
+			"enableFirebaseEvents": true,
+			"enableFacebookSdkEvents": false,
+			"enableIwRelay": false,
+			"enableClientQualifiedWallet": true,
+			"enableServerQualifiedWallet": false,
+			"enableClientCompletedEvents": true,
+			"enableServerCompletedEvents": false,
+			"extendedProductAnalytics": true
+		}
 	},
 	"nfc": {
 		"exportDeeplink": false,
@@ -33,6 +45,18 @@
 					"enabled": true,
 					"unallowedCountries": [
 						"GBR"
+					],
+					"supportedBuyProviders": [
+						"transak",
+						"paybis",
+						"gatefi",
+						"moonpay"
+					],
+					"supportedSellProviders": [
+						"transak",
+						"paybis",
+						"gatefi",
+						"moonpay"
 					]
 				},
 				"crossChainSwap": {
@@ -46,7 +70,19 @@
 			"android": {
 				"buysell": {
 					"enabled": true,
-					"unallowedCountries": []
+					"unallowedCountries": [],
+					"supportedBuyProviders": [
+						"transak",
+						"paybis",
+						"gatefi",
+						"moonpay"
+					],
+					"supportedSellProviders": [
+						"transak",
+						"paybis",
+						"gatefi",
+						"moonpay"
+					]
 				},
 				"crossChainSwap": {
 					"enabled": true,
@@ -78,9 +114,35 @@
 					"optimism",
 					"polygon",
 					"solana",
-					"ton",
+					{
+						"network": "ton",
+						"minAppVersion": "1.12.0"
+					},
 					"tron",
 					"xrp"
+				]
+			}
+		},
+		"history": {
+			"proxy": {
+				"enabled": false,
+				"networks": []
+			},
+			"direct": {
+				"enabled": true,
+				"networks": [
+					"ethereum",
+					"bitcoin",
+					"bsc",
+					"tron",
+					"avalanche",
+					"polygon",
+					"solana",
+					"arbitrum",
+					"ton",
+					"optimism",
+					"xrp",
+					"base"
 				]
 			}
 		}
