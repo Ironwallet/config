@@ -127,23 +127,24 @@
 		},
 		"history": {
 			"proxy": {
-				"enabled": false,
-				"networks": []
+				"enabled": true,
+				"networks": [
+					"bitcoin",
+					"ethereum",
+					"tron",
+					"solana",
+					"ton",
+					"xrp"
+				]
 			},
 			"direct": {
 				"enabled": true,
 				"networks": [
-					"ethereum",
-					"bitcoin",
 					"bsc",
-					"tron",
 					"avalanche",
 					"polygon",
-					"solana",
 					"arbitrum",
-					"ton",
 					"optimism",
-					"xrp",
 					"base"
 				]
 			}
