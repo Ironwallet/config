@@ -121,7 +121,9 @@
 						"minAppVersion": "1.12.0"
 					},
 					"tron",
-					"xrp"
+					"xrp",
+					"dogecoin",
+					"litecoin"
 				]
 			}
 		},
@@ -145,7 +147,9 @@
 					"polygon",
 					"arbitrum",
 					"optimism",
-					"base"
+					"base",
+					"dogecoin",
+					"litecoin"
 				]
 			}
 		}
