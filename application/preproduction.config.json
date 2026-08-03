@@ -119,29 +119,34 @@
 						"minAppVersion": "1.12.0"
 					},
 					"tron",
-					"xrp"
+					"xrp",
+					"dogecoin",
+					"litecoin"
 				]
 			}
 		},
 		"history": {
 			"proxy": {
-				"enabled": false,
-				"networks": []
-			},
-			"direct": {
 				"enabled": true,
 				"networks": [
 					"ethereum",
 					"bitcoin",
-					"bsc",
 					"tron",
+					"solana",
+					"ton",
+					"xrp",
+					"dogecoin",
+					"litecoin"
+				]
+			},
+			"direct": {
+				"enabled": true,
+				"networks": [
+					"bsc",
 					"avalanche",
 					"polygon",
-					"solana",
 					"arbitrum",
-					"ton",
 					"optimism",
-					"xrp",
 					"base"
 				]
 			}
