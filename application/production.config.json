@@ -37,13 +37,11 @@
 					"supportedBuyProviders": [
 						"transak",
 						"paybis",
-						"gatefi",
 						"moonpay"
 					],
 					"supportedSellProviders": [
 						"transak",
 						"paybis",
-						"gatefi",
 						"moonpay"
 					]
 				},
@@ -62,13 +60,11 @@
 					"supportedBuyProviders": [
 						"transak",
 						"paybis",
-						"gatefi",
 						"moonpay"
 					],
 					"supportedSellProviders": [
 						"transak",
 						"paybis",
-						"gatefi",
 						"moonpay"
 					]
 				},
