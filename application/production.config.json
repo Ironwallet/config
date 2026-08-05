@@ -35,13 +35,9 @@
 						"GBR"
 					],
 					"supportedBuyProviders": [
-						"transak",
-						"paybis",
 						"moonpay"
 					],
 					"supportedSellProviders": [
-						"transak",
-						"paybis",
 						"moonpay"
 					]
 				},
@@ -58,13 +54,9 @@
 					"enabled": true,
 					"unallowedCountries": [],
 					"supportedBuyProviders": [
-						"transak",
-						"paybis",
 						"moonpay"
 					],
 					"supportedSellProviders": [
-						"transak",
-						"paybis",
 						"moonpay"
 					]
 				},
