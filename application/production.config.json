@@ -49,10 +49,12 @@
 					],
 					"supportedBuyProviders": [
 						"transak",
+						"paybis",
 						"moonpay"
 					],
 					"supportedSellProviders": [
 						"transak",
+						"paybis",
 						"moonpay"
 					]
 				},
@@ -74,10 +76,12 @@
 					],
 					"supportedBuyProviders": [
 						"transak",
+						"paybis",
 						"moonpay"
 					],
 					"supportedSellProviders": [
 						"transak",
+						"paybis",
 						"moonpay"
 					]
 				},
