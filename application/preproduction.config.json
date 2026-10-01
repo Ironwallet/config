@@ -45,7 +45,8 @@
 					"enabled": true,
 					"unallowedCountries": [
 						"GBR",
-						"LIE"
+						"LIE",
+						"CRI"
 					],
 					"supportedBuyProviders": [
 						"transak",
@@ -64,7 +65,8 @@
 					"enabled": true,
 					"swpEnabled": true,
 					"unallowedCountries": [
-						"LIE"
+						"LIE",
+						"CRI"
 					],
 					"swpCountries": [],
 					"swapCountries": []
@@ -74,7 +76,8 @@
 				"buysell": {
 					"enabled": true,
 					"unallowedCountries": [
-						"LIE"
+						"LIE",
+						"CRI"
 					],
 					"supportedBuyProviders": [
 						"transak",
@@ -93,7 +96,8 @@
 					"enabled": true,
 					"swpEnabled": true,
 					"unallowedCountries": [
-						"LIE"
+						"LIE",
+						"CRI"
 					],
 					"swpCountries": [],
 					"swapCountries": []
