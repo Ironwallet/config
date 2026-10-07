@@ -134,12 +134,7 @@
 		"history": {
 			"proxy": {
 				"enabled": true,
-				"networks": [
-					{
-						"network": "bitcoin",
-						"minAppVersion": "1.13.0"
-					}
-				]
+				"networks": []
 			},
 			"direct": {
 				"enabled": true,
@@ -156,7 +151,8 @@
 					"ton",
 					"xrp",
 					"dogecoin",
-					"litecoin"
+					"litecoin",
+					"bitcoin"
 				]
 			}
 		}
