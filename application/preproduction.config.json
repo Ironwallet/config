@@ -142,20 +142,7 @@
 		"history": {
 			"proxy": {
 				"enabled": true,
-				"networks": [
-					{
-						"network": "bitcoin",
-						"minAppVersion": "1.13.0"
-					},
-					{
-						"network": "dogecoin",
-						"minAppVersion": "1.14.0"
-					},
-					{
-						"network": "litecoin",
-						"minAppVersion": "1.14.0"
-					}
-				]
+				"networks": []
 			},
 			"direct": {
 				"enabled": true,
@@ -170,7 +157,10 @@
 					"optimism",
 					"base",
 					"ton",
-					"xrp"
+					"xrp",
+					"dogecoin",
+					"litecoin",
+					"bitcoin"
 				]
 			}
 		}
