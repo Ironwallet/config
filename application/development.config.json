@@ -142,6 +142,10 @@
 				"enabled": true,
 				"networks": [
 					{
+						"network": "bitcoin",
+						"minAppVersion": "1.13.0"
+					},
+					{
 						"network": "dogecoin",
 						"minAppVersion": "1.14.0"
 					},
@@ -164,8 +168,7 @@
 					"optimism",
 					"base",
 					"ton",
-					"xrp",
-					"bitcoin"
+					"xrp"
 				]
 			}
 		}
